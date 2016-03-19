@@ -1,6 +1,8 @@
 package com.cgl.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -13,7 +15,9 @@ import javax.persistence.Table;
 public class CustomerType {
     private int ct_id;//主键
     private  String ct_name;//客户分类，名
-
+    
+    @Id
+    @GeneratedValue
     public int getCt_id() {
         return ct_id;
     }

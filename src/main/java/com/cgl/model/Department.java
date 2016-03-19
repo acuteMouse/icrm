@@ -1,9 +1,6 @@
 package com.cgl.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * Created cgl on 2016/3/15.
@@ -36,6 +33,8 @@ public class Department {
         this.d_name = d_name;
     }
     
+    @ManyToOne
+    @JoinColumn(name = "d_parentDepartment")
     public Department getD_parentDeparment() {
         return d_parentDeparment;
     }

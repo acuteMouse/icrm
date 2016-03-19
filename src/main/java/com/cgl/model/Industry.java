@@ -1,6 +1,8 @@
 package com.cgl.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
@@ -13,7 +15,9 @@ import javax.persistence.Table;
 public class Industry {
     private int i_id;//主键
     private String i_name;//行业名称
-
+    
+    @Id
+    @GeneratedValue
     public int getI_id() {
         return i_id;
     }

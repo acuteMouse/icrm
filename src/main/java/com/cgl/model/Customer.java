@@ -52,7 +52,7 @@ public class Customer {
         this.c_address = c_address;
     }
     
-    @ManyToMany
+    @ManyToOne
     @JoinColumn(name = "c_industry")
     public Industry getC_industry() {
         return c_industry;
@@ -62,7 +62,7 @@ public class Customer {
         this.c_industry = c_industry;
     }
     
-    @OneToMany
+    @ManyToOne
     @JoinColumn(name = "c_type")
     public CustomerType getC_type() {
         return c_type;
