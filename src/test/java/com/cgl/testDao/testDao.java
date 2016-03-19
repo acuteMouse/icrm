@@ -9,13 +9,4 @@ import com.cgl.model.User;
 
 public class testDao {
 	
-	@SuppressWarnings("resource")
-	@Test
-	public void testAdd(){
-		ApplicationContext ctx=new ClassPathXmlApplicationContext(new String[]{"classpath:applicationContext.xml"});
-			IUserDao userDao=(IUserDao) ctx.getBean("userDao");
-		
-//			userDao.add(u);
-			
-	}
 }

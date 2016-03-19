@@ -7,13 +7,5 @@ import com.cgl.action.UserAction;
 import com.cgl.model.User;
 
 public class TestUserAction {
-
-	@Test
-	public void testAdd() {
-		@SuppressWarnings("resource")
-		ApplicationContext ctx=new ClassPathXmlApplicationContext(new String[]{"classpath:applicationContext.xml"});
-		UserAction userAction=(UserAction) ctx.getBean("userAction");
-		userAction.add();
-	}
-
+	
 }

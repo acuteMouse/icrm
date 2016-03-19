@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e66ba875-586c-4b39-b580-57ebe2c304a3" name="Default" comment="测试git是否同步">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseAction/IOCSerivce.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/IBaseService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/impl/BaseServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/CustomerType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/Industry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/jsp/add.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/crm_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/crm_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cgl/model/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/model/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cgl/testAction/TestUserAction.java" afterPath="$PROJECT_DIR$/src/test/java/com/cgl/testAction/TestUserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java" afterPath="$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java" afterPath="$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java" />
     </list>
     <ignored path="hotel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +44,119 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
+      <file leaf-file-name="CustomerType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/CustomerType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5714286">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#149#156#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Industry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Industry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#149#156#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#254#0" expanded="true" />
+                <element signature="e#438#441#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#226#233#0" expanded="true" />
+                <element signature="e#408#411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IBaseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/IBaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/impl/BaseServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOCSerivce.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseAction/IOCSerivce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5317919">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -40,12 +167,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -55,14 +186,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/cgl/testAction/TestUserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/CustomerType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/Industry.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/impl/BaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseAction/BaseAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseAction/IOCSerivce.java" />
       </list>
     </option>
   </component>
@@ -161,7 +303,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -170,9 +312,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,11 +382,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cgl" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,33 +408,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cgl" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="cgl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/company/tvadmds/branches/xl_tvadms_jining_special" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="103" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="925" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="120" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="127" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="126" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="919" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\springtoolsuitplace" />
       <recent name="G:\springtoolsuitplace\crm" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cgl.model" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.t8">
@@ -773,7 +930,12 @@
       <option name="number" value="Default" />
       <updated>1457268037214</updated>
       <workItem from="1457268040201" duration="4761000" />
-      <workItem from="1457273246074" duration="235000" />
+      <workItem from="1457273246074" duration="374000" />
+      <workItem from="1457273680818" duration="201000" />
+      <workItem from="1457355435148" duration="2883000" />
+      <workItem from="1457437036478" duration="93000" />
+      <workItem from="1458045910370" duration="4994000" />
+      <workItem from="1458389936405" duration="1895000" />
     </task>
     <task id="LOCAL-00001" summary="构建maven项目">
       <created>1457271976419</created>
@@ -791,41 +953,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4996000" />
+    <option name="totallyTimeSpent" value="15201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42647058" sideWeight="0.5030257" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42647058" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42647058" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3872549" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2908497" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52287585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34150326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2908497" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
+    <option name="LONG_EDGES_VISIBLE" value="true" />
     <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
@@ -843,21 +1006,146 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="11" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1485#0" expanded="true" />
+            <element signature="e#2856#2865#0" expanded="true" />
+            <element signature="e#3095#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#115#122#0" expanded="true" />
+            <element signature="e#449#452#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1296#1306#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#254#0" expanded="true" />
+            <element signature="e#438#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#233#0" expanded="true" />
+            <element signature="e#408#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1485#0" expanded="true" />
+            <element signature="e#2856#2865#0" expanded="true" />
+            <element signature="e#3095#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -865,7 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +1161,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
           <folding>
-            <element signature="e#215#218#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1485#0" expanded="true" />
+            <element signature="e#2856#2865#0" expanded="true" />
+            <element signature="e#3095#3104#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -883,80 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="n#package#0;n#struts#0;n#!!top" expanded="true" />
-            <element signature="n#action#0;n#package#0;n#struts#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9597855">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-          <folding>
-            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#property#0;n#bean#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#1;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#list#0;n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#3;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7394137">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testAction/TestUserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6657895">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06321839">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7379679">
-          <caret line="17" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#282#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46256685">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#263#292#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -964,7 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1428572">
           <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,40 +1187,254 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07931034">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding>
-            <element signature="n#package#0;n#struts#0;n#!!top" expanded="true" />
-            <element signature="n#action#0;n#package#0;n#struts#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.2.1.1/xwork-core-2.2.1.1-sources.jar!/com/opensymphony/xwork2/interceptor/ModelDrivenInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.071428575">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding>
-            <element signature="e#215#218#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-0.27074236">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/xwork/xwork-core/2.2.1.1/xwork-core-2.2.1.1-sources.jar!/com/opensymphony/xwork2/ModelDriven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6528384">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.055690072">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.7168539">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5714286">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.051685393">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17037037">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2617284">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testAction/TestUserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28395063">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding>
+            <element signature="n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#list#0;n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#prop#0;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#prop#1;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#bean#3;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#tx:attributes#0;n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#aop:pointcut#0;n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1482#1485#0" expanded="true" />
+            <element signature="e#2856#2865#0" expanded="true" />
+            <element signature="e#3095#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+          <folding>
+            <element signature="e#115#122#0" expanded="true" />
+            <element signature="e#449#452#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+            <element signature="e#1296#1306#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1491#1492#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/CustomerType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#156#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Industry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#149#156#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#254#0" expanded="true" />
+            <element signature="e#438#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#226#233#0" expanded="true" />
+            <element signature="e#408#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/IBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseService/impl/BaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056790125">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/BaseAction/IOCSerivce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5317919">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>

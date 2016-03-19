@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--suppress ALL -->
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
 	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
@@ -48,6 +47,7 @@
 			 <prop key="hibernate.current_session_context_class">thread</prop>
 			 -->	
 				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
 			</props>
 		</property>
 	</bean>
