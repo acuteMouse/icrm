@@ -22,7 +22,7 @@ public class User {
     private String u_telphone; //联系电话
     private String u_address;  //地址
     private int u_age;            //年龄
-    private Long idNum;        //身份证号，唯一
+    private Long u_idNum;        //身份证号，唯一
     private Department u_department; //所属部门，外键
     private UserType u_userType;   //用户类型，外键
     private String u_remark;   //备注
@@ -38,7 +38,7 @@ public class User {
         this.u_telphone = u_telphone;
         this.u_address = u_address;
         this.u_age = u_age;
-        this.idNum = idNum;
+        this.u_idNum=u_idNum;
         this.u_department = u_department;
         this.u_userType = u_userType;
         this.u_remark = u_remark;
@@ -115,12 +115,12 @@ public class User {
         this.u_age = u_age;
     }
 
-    public Long getIdNum() {
-        return idNum;
+    public Long getU_idNum() {
+        return u_idNum;
     }
 
-    public void setIdNum(Long idNum) {
-        this.idNum = idNum;
+    public void setU_idNum(Long u_idNum) {
+        this.u_idNum = u_idNum;
     }
 
     @OneToOne

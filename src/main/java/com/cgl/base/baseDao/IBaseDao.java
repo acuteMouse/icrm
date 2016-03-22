@@ -1,6 +1,7 @@
 package com.cgl.base.baseDao;
 
 import org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.Entity;
