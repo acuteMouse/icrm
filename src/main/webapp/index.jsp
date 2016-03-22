@@ -4,28 +4,21 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>登陆</title>s
-    <script src="js/jquery.min.js"/>
-    <script src="js/jquery.easyui.min.js"/>
-    <script src="js/easyui-lang-zh_CN.js"/>
-    <link href="css/easyui.css"/>
-    <link href="css/icon.css"/>
-
+    <title>登陆</title>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.easyui.min.js" type="text/javascript"></script>
+    <script src="js/easyui-lang-zh_CN.js" type="text/javascript"></script>
+    <link href="css/easyui.css" type="text/css" rel="stylesheet"/>
+    <link href="css/icon.css" type="text/css" rel="stylesheet"/>
+    <link href="css/login.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<div id="container" style="width: 600px;height: 800px;">
-    <form id="ff" method="post">
-        <div>
-            <label for="name">Name:</label>
-            <input class="easyui-validatebox" type="text" name="name" data-options="required:true"/>
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input class="easyui-validatebox" type="text" name="email" data-options="validType:'email'"/>
-        </div>
-
+<section class="login-form-wrap">
+    <form class="login-form" action="post">
+        <label><input type="text" name="" required placeholder="用户名"></label>
+        <label><input type="password" name="password" required placeholder="密码"></label>
+        <input type="submit" value="Login">
     </form>
-
-</div>
+</section>
 </body>
 </html>
