@@ -11,17 +11,19 @@ import javax.persistence.*;
 @Table(name = "t_department")
 public class Department {
     
-    private int d_id;//主键
+    private long d_id;//主键
     private String d_name;//部门名称
     private Department d_parentDeparment; //上级部门
 
+ 
+
     @Id
     @GeneratedValue
-    public int getD_id() {
+    public long getD_id() {
         return d_id;
     }
 
-    public void setD_id(int d_id) {
+    public void setD_id(long d_id) {
         this.d_id = d_id;
     }
 

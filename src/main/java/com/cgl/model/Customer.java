@@ -10,21 +10,23 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_customer")
 public class Customer {
-    private  int c_id;//主键
+    private  long c_id;//主键
     private  String c_name;//客户名称。公司名称
     private  Long c_telphone; // 客户联系电话
     private  String c_address; //客户位置
     private  Industry c_industry;//客户行业，外键
     private  CustomerType c_type;//客户类型，外键
     private  String  c_email;// 邮箱
-    
+
+   
+
     @Id
     @GeneratedValue
-    public int getC_id() {
+    public long getC_id() {
         return c_id;
     }
 
-    public void setC_id(int c_id) {
+    public void setC_id(long c_id) {
         this.c_id = c_id;
     }
 

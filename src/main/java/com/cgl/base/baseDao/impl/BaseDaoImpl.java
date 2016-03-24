@@ -21,7 +21,7 @@ import java.util.jar.Attributes;
 @Repository("baseDao")
 @Transactional
 public class BaseDaoImpl implements IBaseDao {
-    
+
     public void addEntity(Object o) {
         getSeesion().save(o);
     }
@@ -33,33 +33,32 @@ public class BaseDaoImpl implements IBaseDao {
     public void updateEntity(Object o) {
         getSeesion().update(o);
     }
-    
-    
+
+
     public List findAll(Object o) {
-        StringBuffer hql=new StringBuffer(512);
-        hql.append("from "+o.getClass().getSimpleName());
-        Query query=getSeesion().createQuery(hql.toString());
-        return  query.list();
+        StringBuffer hql = new StringBuffer(512);
+        hql.append("from " + o.getClass().getSimpleName());
+        Query query = getSeesion().createQuery(hql.toString());
+        return query.list();
     }
 
     public void saveOrUpdateEntity(Object o) {
         getSeesion().saveOrUpdate(o);
     }
-    
-    public Object findById(int id, Object o) {
-        StringBuffer sql=new StringBuffer(512);
-        sql.append("From "+o.getClass().getSimpleName() +" where id=:id");
-        Query query=getSeesion().createQuery(sql.toString());
-        query.setParameter("id",id);
-        return  query.uniqueResult();
+
+    public Object findById(long id, Object o) {
+        StringBuffer sql = new StringBuffer(512);
+        sql.append("From " + o.getClass().getSimpleName() + " where id=:id");
+        Query query = getSeesion().createQuery(sql.toString());
+        query.setParameter("id", id);
+        return query.uniqueResult();
     }
 
-   
 
     @Resource//注入sessionfactory
-      SessionFactory sessionFactory;
+            SessionFactory sessionFactory;
 
-    public  Session getSeesion() { //返回session，由spring管理
+    public Session getSeesion() { //返回session，由spring管理
         return sessionFactory.getCurrentSession();
     }
 }

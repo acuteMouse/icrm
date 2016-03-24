@@ -14,18 +14,19 @@ import javax.persistence.Table;
 @Table(name = "t_userType")
 public class UserType {
     
-    private int ut_id;//  主键
+    private long ut_id;//  主键
     private String ut_name;// 类型名称
     private String ut_remark; //备注
 
     //----get/set方法--
+
     @Id
     @GeneratedValue
-    public int getUt_id() {
+    public long getUt_id() {
         return ut_id;
     }
 
-    public void setUt_id(int ut_id) {
+    public void setUt_id(long ut_id) {
         this.ut_id = ut_id;
     }
 

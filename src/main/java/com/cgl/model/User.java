@@ -14,7 +14,7 @@ import java.util.Date;
 @Entity
 @Table(name = "t_user")
 public class User {
-    private int u_id;  //主键
+    private long u_id;  //主键
     private String u_userName;  //登陆系统帐号
     private String u_password;  //登陆密码
     private String u_trueName; //真实姓名
@@ -47,15 +47,16 @@ public class User {
     //无参构造器
     public User() {
     }
+    
 
     //-----get/set
     @Id
     @GeneratedValue
-    public int getU_id() {
+    public long getU_id() {
         return u_id;
     }
 
-    public void setU_id(int u_id) {
+    public void setU_id(long u_id) {
         this.u_id = u_id;
     }
 

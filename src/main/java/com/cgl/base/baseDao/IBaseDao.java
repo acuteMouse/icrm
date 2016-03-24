@@ -20,5 +20,5 @@ public interface IBaseDao  {
     public  void  updateEntity(Object o);//修改
     public  List<Object> findAll(Object o);//查询所有
     public  void saveOrUpdateEntity(Object o); //添加或者修改
-    public  Object  findById(int id,Object o);
+    public  Object  findById(long id,Object o);
 }
