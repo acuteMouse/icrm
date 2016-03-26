@@ -4,5 +4,8 @@ import com.cgl.model.User;
 
 
 public interface IUserService {
-	public void add(User u);
+
+	User checkUser(User user);
+	
+	
 }
