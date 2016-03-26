@@ -1,0 +1,124 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.mb5{margin-bottom: 5px !important;}
+.mb10{margin-bottom: 10px !important;}
+.mb15{margin-bottom: 15px !important;}
+.mart10{margin-top: 10px !important;}
+.mart20{margin-top: 20px !important;}
+.mart6{margin-top: 6px !important;}
+.pad30{padding:30px !important;}
+.padl30{padding-left:30px !important;}
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix 
+{
+	overflow:hidden;
+}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.floatL {
+	float: left;
+}
+
+.floatR {
+	float: right;
+}
+
+a:hover img {
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	-moz-opacity:0.8;
+}
+
+.pageTop a {
+	float: right;
+	display: block;
+}
+
+.pageTop {
+	margin: 45px 23px 4px 0;
+}
+
+.textIndent2{
+	text-indent:2em;
+	}
+.textIndent3{
+	text-indent:3em;
+	}
+
+.pageTop {
+	margin: 45px 23px 4px 0;
+}
+
+.banner {
+	/*margin: 0 0 24px 0;
+	position: relative;
+	height: 442px;*/
+}
+
+.banner .btn {
+/*	position: absolute;
+	top: 370px;
+	left: 74px;*/
+}
+.noline{
+	text-decoration:none !important;;
+	color:#353535 !important;;
+	}
+#mian .noline{
+	text-decoration:none !important;;
+	color:#353535 !important;;
+	}
+.alert{filter:alpha(opacity=100); /* IE */ -moz-opacity:1.0; /* Moz + FF */
+opacity: 1.0; height:300px; width:500px; background:#ccc; left:50%; top:50%;margin-top:-150px;margin-left:-250px;position:absolute;z-index:99; text-align:center; padding:20px;}

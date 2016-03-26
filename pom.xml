@@ -111,6 +111,8 @@
     
     <build>
         <plugins>
+                <!--自动部署-->
+           
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

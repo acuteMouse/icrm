@@ -2,14 +2,385 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e66ba875-586c-4b39-b580-57ebe2c304a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/util/SessionUitl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/cgl/testDao/BaseDaoImplTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/banner01-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/banner02-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/banner03-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/lianxi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/logo-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/logo4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/lunbo10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/lunbo11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/lunbo12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/lunbo9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/more.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/phone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/product.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/sb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/Image/yuanliao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/accordion_collapse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/accordion_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/button_a_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/button_plain_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/button_span_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/calendar_nextmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/calendar_nextyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/calendar_prevmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/calendar_prevyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/combo_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_header_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_row_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_row_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datagrid_title_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/layout_button_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/layout_button_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/layout_button_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/layout_button_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/menu_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/menu_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/menu_sep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/menu_split_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/messager_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/messager_info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/messager_question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/messager_warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/pagination_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/panel_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/panel_title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/panel_tool_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/panel_tool_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/panel_tools.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/spinner_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/spinner_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tabs_active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tabs_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tabs_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tabs_leftarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tabs_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_checkbox_0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_checkbox_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_checkbox_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_dnd_no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_dnd_yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_elbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/tree_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/validatebox_pointer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/accordion_collapse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/accordion_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/button_a_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/button_plain_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/button_span_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/calendar_nextmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/calendar_nextyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/calendar_prevmonth.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/calendar_prevyear.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/combo_arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_header_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_row_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_row_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_sort_asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_sort_desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datagrid_title_bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/datebox_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/layout_button_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/layout_button_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/layout_button_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/layout_button_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/menu_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/menu_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/menu_sep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/menu_split_downarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/messager_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/messager_info.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/messager_question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/messager_warning.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_load.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/pagination_prev.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/panel_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/panel_title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/panel_tool_collapse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/panel_tool_expand.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/panel_tools.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/searchbox_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/slider_handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/spinner_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/spinner_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tabs_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tabs_enabled.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tabs_leftarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tabs_rightarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_arrows.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_checkbox_0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_checkbox_1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_checkbox_2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_dnd_no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_dnd_yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_elbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_file.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/tree_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/validatebox_pointer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/images/validatebox_warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/0-import.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/1-default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/2-layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/3-styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/Index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/jquery.fancybox-1.3.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/lanrenzhijia.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/gun.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.4.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/accordion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/combo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/combobox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/combobox_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/combogrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/combotree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datagrid_data3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datebox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/datetimebox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/draggable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/droppable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/droppable1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/droppable2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/easyloader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/form_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/layout1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/layout2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/linkbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/menubutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/messager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/numberbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/numberbox2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/numberspinner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/panel2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/progressbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/propertygrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/propertygrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/resizable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/searchbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/slider.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/splitbutton.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/tabs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/tabs_href_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/timespinner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/tree2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/tree_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid_data.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid_data2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid_data3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/treegrid_subdata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/validatebox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/demo/window.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/easyloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/jquery.easyui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/licence_gpl.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/license_commercial.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-cz.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-zh_TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.accordion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.combo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.combobox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.combogrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.combotree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.datagrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.datebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.datetimebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.draggable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.droppable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.linkbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.menubutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.messager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.numberbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.numberspinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.pagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.propertygrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.resizable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.searchbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.splitbutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.tabs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.timespinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.treegrid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.validatebox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/plugins/jquery.window.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/accordion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/calendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/combo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/combobox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/datagrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/datebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/easyui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/layout.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/linkbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/menubutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/messager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/pagination.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/panel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/progressbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/propertygrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/searchbox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/spinner.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/splitbutton.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/tabs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/tree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/validatebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/gray/window.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.fancybox-1.3.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.mousewheel-3.0.2.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.movebg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/lanrenzhijia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/swfobject_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/product.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/productIn.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/showStaff.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/filter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/large_chart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/large_clipart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/large_picture.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/large_shapes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/large_smartart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/back.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/back.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/blank.gif" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/blank.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/cancel.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/cancel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/cut.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/cut.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/edit_add.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/edit_add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/edit_remove.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/edit_remove.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/filesave.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/filesave.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/help.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/help.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/mini_add.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/mini_add.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/mini_edit.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/mini_edit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/mini_refresh.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/mini_refresh.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/no.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/no.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/ok.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/ok.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/pencil.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/pencil.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/print.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/print.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/redo.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/redo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/reload.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/reload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/search.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/default/images/searchbox_button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/sum.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/sum.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/tip.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/tip.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/icons/undo.png" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/themes/icons/undo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/js/easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-easyui-1.2.6/locale/easyui-lang-zh_CN.js" />
     </list>
     <ignored path="hotel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,82 +403,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.21875">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-              <folding>
-                <element signature="n#page#0;n#jsp:root#0;n#!!top" expanded="true" />
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IBaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDaoImplTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/BaseDaoImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1548117">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state vertical-scroll-proportion="-7.1875">
+              <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.16558442">
+              <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <element signature="e#153#160#0" expanded="true" />
+                <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+                <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -121,6 +453,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -165,6 +498,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cgl/testDao/BaseDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/myjsp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -190,16 +526,6 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="hotel Maven Webapp" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="" />
@@ -272,7 +598,8 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -287,99 +614,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="icrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cgl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cgl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testDao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icrm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/company/tvadmds/branches/xl_tvadms_jining_special" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
@@ -407,25 +655,25 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.cgl.testDao" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cgl.model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\springtoolsuitplace\crm\src\main\webapp\css" />
-      <recent name="G:\springtoolsuitplace\crm\src\main\webapp" />
-      <recent name="G:\springtoolsuitplace\crm\src\main\webapp\js" />
-      <recent name="G:\springtoolsuitplace" />
-      <recent name="G:\springtoolsuitplace\crm" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\springtoolsuitplace\crm\src\main\webapp" />
       <recent name="G:\springtoolsuitplace\crm\src\main\webapp\WEB-INF" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\icrm\icrm\src\main\resources" />
+      <recent name="G:\icrm\icrm\src\main\webapp\WEB-INF" />
+      <recent name="G:\icrm\icrm\src\main\webapp" />
+      <recent name="G:\icrm\icrm" />
+      <recent name="G:\icrm\icrm\src\main\java\com\cgl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cgl.model" />
+    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.t8">
+  <component name="RunManager" selected="Tomcat Server.t6">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -810,27 +1058,26 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="t8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.261" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.7">
-      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+    <configuration default="false" name="t6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.39" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="crm:war exploded">
+        <artifact name="crm:war">
           <settings>
             <option name="CONTEXT_PATH" value="/crm" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hotel" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_icrm_2" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="false" />
-      <predefined_log_file id="Tomcat Catalina" enabled="false" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56447" />
+        <option name="DEBUG_PORT" value="53773" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -879,12 +1126,12 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="crm:war exploded" />
+          <artifact name="crm:war" />
         </option>
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.t8" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.t6" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -905,6 +1152,7 @@
       <workItem from="1458045910370" duration="4994000" />
       <workItem from="1458389936405" duration="8578000" />
       <workItem from="1458649017453" duration="3237000" />
+      <workItem from="1458985949008" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="构建maven项目">
       <created>1457271976419</created>
@@ -930,11 +1178,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458396609628</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="登陆功能&#10;">
+      <created>1458986296013</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458986296013</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25121000" />
+    <option name="totallyTimeSpent" value="27389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -942,29 +1196,29 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42647058" sideWeight="0.5060514" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5620915" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40359476" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3970588" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2908497" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3888889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3888889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2908497" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1013,7 +1267,8 @@
     <MESSAGE value="测试git是否同步" />
     <MESSAGE value="项目结构搭建完成" />
     <MESSAGE value="jquery-easyUI支持" />
-    <option name="LAST_COMMIT_MESSAGE" value="jquery-easyUI支持" />
+    <MESSAGE value="登陆功能&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="登陆功能&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,88 +1277,35 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="n#page#0;n#jsp:root#0;n#!!top" expanded="true" />
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#527#549#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1184#1185#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
-          <folding>
-            <element signature="e#153#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#115#122#0" expanded="true" />
-            <element signature="e#449#452#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#1016#1017#0" expanded="false" />
-            <element signature="e#1058#1059#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1284#1285#0" expanded="false" />
-            <element signature="e#1375#1376#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-            <element signature="e#1454#1455#0" expanded="false" />
-            <element signature="e#1490#1491#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1600#1601#0" expanded="false" />
-            <element signature="e#1638#1639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/BaseDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1111,76 +1313,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="n#page#0;n#jsp:root#0;n#!!top" expanded="true" />
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="1" selection-start-line="2" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="e#153#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/serviceImpl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding>
-            <element signature="e#153#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07931034">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,13 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051685393">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testService/TestUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17037037">
@@ -1217,37 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28395063">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding>
-            <element signature="n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#list#0;n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#prop#0;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#prop#1;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#bean#3;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#tx:attributes#0;n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
-            <element signature="n#aop:pointcut#0;n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1279,170 +1378,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2857144">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/serviceImpl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/CustomerType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.easyui.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/icon.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44352618">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/easyui-lang-zh_CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0626703">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/easyui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Industry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26744187">
-          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-          <folding>
-            <element signature="n#context-param#0;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#filter#0;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#filter#1;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#init-param#0;n#filter#1;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#filter-mapping#1;n#web-app#0;n#!!top" expanded="true" />
-            <element signature="n#listener#0;n#web-app#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5549598">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.21875">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="n#page#0;n#jsp:root#0;n#!!top" expanded="true" />
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.051458">
-          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
-          <folding>
-            <element signature="e#115#122#0" expanded="true" />
-            <element signature="e#449#452#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#627#628#0" expanded="false" />
-            <element signature="e#656#657#0" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#771#772#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#854#855#0" expanded="false" />
-            <element signature="e#898#899#0" expanded="false" />
-            <element signature="e#934#935#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-            <element signature="e#1016#1017#0" expanded="false" />
-            <element signature="e#1058#1059#0" expanded="false" />
-            <element signature="e#1153#1154#0" expanded="true" />
-            <element signature="e#1186#1187#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1284#1285#0" expanded="false" />
-            <element signature="e#1375#1376#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-            <element signature="e#1454#1455#0" expanded="false" />
-            <element signature="e#1490#1491#0" expanded="false" />
-            <element signature="e#1524#1525#0" expanded="false" />
-            <element signature="e#1554#1555#0" expanded="false" />
-            <element signature="e#1600#1601#0" expanded="false" />
-            <element signature="e#1638#1639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/base/baseDao/IBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1450,20 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35506004">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#153#160#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1472,36 +1398,162 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#527#549#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#727#728#0" expanded="false" />
+            <element signature="e#765#766#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+            <element signature="e#845#846#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1184#1185#0" expanded="false" />
+            <element signature="e#1618#1619#0" expanded="false" />
+            <element signature="e#1697#1698#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/testDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.7441176">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cgl/testDao/BaseDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1548117">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.7441176">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#context-param#0;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#filter#0;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#filter#1;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#init-param#0;n#filter#1;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#filter-mapping#0;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#filter-mapping#1;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#listener#0;n#web-app#0;n#!!top" expanded="false" />
+            <element signature="n#welcome-file-list#0;n#web-app#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cgl/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36741215">
+          <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <marker date="1458976748848" expanded="true" signature="1636:1658" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.514377">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.322807">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+          <folding>
+            <element signature="n#context:component-scan#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#list#0;n#property#1;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#prop#0;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#prop#1;n#props#0;n#property#2;n#bean#2;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#bean#3;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#tx:attributes#0;n#tx:advice#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="n#aop:pointcut#0;n#aop:config#0;n#beans#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/showStaff.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44089457">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5303516">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1875">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16558442">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="17" selection-end-line="112" selection-end-column="17" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#0;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#1;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#2;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#3;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#4;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#5;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#6;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#10;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#11;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#12;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#13;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#14;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#15;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#16;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#17;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#dependency#18;n#dependencies#0;n#project#0;n#!!top" expanded="false" />
+            <element signature="n#configuration#0;n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

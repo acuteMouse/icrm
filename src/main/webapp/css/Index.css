@@ -1,0 +1,475 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("0-import.css"/*tpa=http://www.yhgrt.com/Template/Css/common/0-import.css*/);
+#conts .info {
+	overflow: hidden;
+	width: 763px;
+	margin-bottom: 15px;
+}
+#conts .infoL {
+	float: left;
+	overflow: hidden;
+	width: 390px;
+	border: 1px solid #ccc;
+	padding: 1px;
+	background-color: #FFF;
+}
+#conts .infornn {
+	padding: 9px 3px 8px 14px;
+}
+#conts .infornn a img {
+	float: left;
+	margin-right: 8px;
+	margin-top: 5px;
+	padding: 2px;
+	border: 1px solid #D4D4D4;
+}
+#conts .infornn .comphoto img {
+}
+#conts .infornn p {
+	line-height: 24px;
+}
+#conts .infoR {
+	float: right;
+	overflow: hidden;
+	width: 350px;
+	border: 1px solid #ccc;
+	padding: 1px;
+	background-color: #FFF;
+}
+#conts .newsInfor ul {
+	overflow: hidden;
+	padding: 6px 14px 14px 15px;
+}
+.newsindex {
+width: 350px;
+overflow: hidden;
+}
+#conts .newsInfor ul li {
+	font-family: "宋体";
+	height: 27px;
+	line-height: 27px;
+	_height: 25px;
+	_line-height: 25px;
+	background: url("icon02.gif"/*tpa=http://www.yhgrt.com/Template/Images/common/icon02.gif*/) 9px 9px no-repeat;
+	padding-left: 27px;
+	border-bottom: 1px dotted #656565;
+}
+.newsInfor ul li a {
+	float:left;
+}
+.newsInfor ul li span {
+	float:right;
+}
+.productInfo {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 1px;
+	margin-bottom: 14px;
+	background-color: #FFF;
+}
+.product {
+	overflow: hidden;
+	padding: 15px 13px 13px 13px;
+}
+.product ul {
+	overflow: hidden;
+}
+/*-----------------图片移动-----------*/
+#conts .product .li {
+	display: block;
+	float: left;
+	width: 135px;
+	height: 128px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 24px;
+	_line-height: 24px;
+	margin: 0 6px 0 6px;
+	border: 1px solid #CCC;
+}
+#conts .product .li a {
+	display: block;
+	width: 135px;
+	height:105px;
+	background-color: #FFF;
+}
+#conts .product .li .img {
+	width: 135px;
+	height: 105px;
+}
+#conts .product .li .proname{
+	background-color:  #575F6C;
+	color: #FFF;
+	height: 23px;
+	line-height: 23px;
+	}
+/*-----------------图片移动-----------*/
+.product ul li {
+	display: block;
+	float: left;
+	width: 135px;
+	height: 128px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 24px;
+	_line-height: 24px;
+	margin: 0 4px 0 5px;
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	}
+.product ul li .img {
+	width: 135px;
+	height: 105px;
+}
+#conts .product li a 
+{
+	width: 135px;
+	height:105px;
+	display: block;
+	background-color: #FFF;
+}
+#conts .product li .proname{
+	background-color:  #575F6C;
+	color: #FFF;
+	height: 23px;
+	line-height: 23px;
+	}
+
+.left {
+	position: absolute;
+	left:5px;
+	top: 53px;
+}
+.right {
+	position: absolute;
+	top: 53px;
+	right: 1px;
+}
+/*-------------内页------*/
+.inconts{
+	width: 759px !important;
+	border: 1px solid #ccc;
+	padding: 1px;
+	background-color: #FFF;
+	}
+.cotitle {
+	height: 34px;
+	line-height: 34px;
+	font-size:14px;
+	font-weight: bold;
+	color: #2D2D2D;
+	padding-left: 44px;
+	overflow: hidden;
+	background: url("cotitle.jpg"/*tpa=http://www.yhgrt.com/Template/Images/common/cotitle.jpg*/) left top no-repeat;
+}
+.coTop {
+	padding-left: 24px;
+	color: #363636;
+	padding-top: 5px;
+	overflow: hidden;
+	clear: both;
+}
+/*联系我们页*/
+#conts .contactInfor {
+	padding:10px;
+}
+#conts .contactInfor img {
+	float:left;
+	margin-right:20px;
+}
+#conts .contactInfor ul {
+	margin-top: 26px;
+}
+#conts .contactInfor ul li {
+	line-height:23px;
+	color:#4E4E4E;
+}
+/*分页*/
+DIV.yellow {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	MARGIN: 3px;
+	PADDING-TOP: 3px;
+	TEXT-ALIGN: center
+}
+DIV.yellow A {
+	BORDER-RIGHT: #312D2A 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #312D2A 1px solid;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	MARGIN: 2px;
+	BORDER-LEFT: #312D2A 1px solid;
+	COLOR: #312D2A;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM:#312D2A 1px solid;
+	TEXT-DECORATION: none
+}
+DIV.yellow A:hover {
+	BORDER-RIGHT: #312D2A 1px solid;
+	BORDER-TOP: #312D2A 1px solid;
+	BORDER-LEFT:#312D2A 1px solid;
+	COLOR: #312D2A;
+	BORDER-BOTTOM: #312D2A 1px solid
+}
+DIV.yellow A:active {
+	BORDER-RIGHT: #312D2A 1px solid;
+	BORDER-TOP: #312D2A 1px solid;
+	BORDER-LEFT: #312D2A 1px solid;
+	COLOR: #312D2A;
+	BORDER-BOTTOM: #312D2A 1px solid
+}
+DIV.yellow SPAN.current {
+	BORDER-RIGHT: #312D2A 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #312D2A 1px solid;
+	PADDING-LEFT: 5px;
+	FONT-WEIGHT: bold;
+	PADDING-BOTTOM: 2px;
+	MARGIN: 2px;
+	BORDER-LEFT:#312D2A 1px solid;
+	COLOR: #fff;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #312D2A 1px solid;
+	BACKGROUND-COLOR:#312D2A;
+}
+DIV.yellow SPAN.disabled {
+	BORDER-RIGHT: #312D2A 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #312D2A 1px solid;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	MARGIN: 2px;
+	BORDER-LEFT:#312D2A 1px solid;
+	COLOR:#312D2A;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM:#312D2A 1px solid
+}
+/*单个新闻页*/
+#conts .contsBox .newlistInfor {
+}
+.info_company .titlep {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+.info_company .time {
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px dashed #3B393A;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.info_company p {
+	text-indent: 2em;
+	font-size: 14px;
+}
+.pageTop {
+	margin: 15px 23px 4px 0;
+	overflow: hidden;
+}
+.pageTop p {
+	color: #299001;
+	display: block;
+	width: 164px;
+	float: right;
+}
+.pageTop p a {
+	font-family: 微软雅黑;
+	text-decoration: none;
+}
+.aboutnew {
+	width: 715px;
+	overflow: hidden;
+}
+.aboutnew .abouttitle {
+	background: url("h2_bg.jpg"/*tpa=http://www.yhgrt.com/Template/Images/common/h2_bg.jpg*/) 6px no-repeat;
+	height: 34px;
+	line-height:34px;
+}
+.aboutnew .abouttitle p {
+	padding: 10px 0 0 10px;
+	color: #444444;
+	font-weight: normal;
+	font-size:14px;
+	color:##299001;
+}
+.aboutnew ul li {
+	background: url("icon02.gif"/*tpa=http://www.yhgrt.com/Template/Images/common/icon02.gif*/) 10px 11px no-repeat
+}
+.aboutnew ul li a {
+	text-decoration: none;
+	line-height: 30px;
+	padding-left: 30px;
+}
+#conts .info_company {
+	width: 680px;
+	margin: 0 auto 10px auto;
+	padding: 15px;
+	background-color: #F5F6F5;
+}
+#conts .info_company p {
+	text-indent: 30px;
+}
+#conts .info_company .titlep {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #43B3E2;
+}
+#conts .info_company .time {
+	height: 20px;
+	background-color: #CCC;
+	text-align: center;
+}
+#conts .pageud p {
+	background: url("web_icon_003.gif"/*tpa=http://www.yhgrt.com/Template/Images/common/web_icon_003.gif*/) 8px no-repeat;
+	padding-left: 22px;
+}
+/*------产品详细信息------------*/
+.probg {
+	padding: 10px;
+	overflow: hidden;
+}
+.xiangxi {
+	width: 580px;
+	overflow: hidden;
+	clear: both;
+	margin-bottom: 20px;
+}
+.xiangxi .xz {
+	width: 215px;
+	float: left;
+	padding-left: 25px;
+}
+.xiangxi .xy {
+	width: 340px;
+	float: right;
+}
+.xiangxi .xy p {
+	color: #000;
+	line-height: 24px;
+	font-weight: bold;
+}
+.tag a {
+	margin:0px 5px;
+}
+.tag {
+	height: 25px;
+	border: solid 1px #CCC;
+	background-color: #F5F6F5;
+	line-height: 25px;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+.tag a {
+	text-decoration: none;
+}
+.unpage {
+	line-height: 25px;
+}
+.unpage span {
+	font-weight: bold;
+}
+#tip {
+	position:absolute;
+	color:#333;
+	display:none;
+}
+#tip s {
+	position:absolute;
+	top:40px;
+	left:-20px;
+	display:block;
+	width:0px;
+	height:0px;
+	font-size:0px;
+	line-height:0px;
+	border-color:transparent #BBA transparent transparent;
+	border-style:dashed solid dashed dashed;
+	border-width:10px;
+}
+#tip s i {
+	position:absolute;
+	top:-10px;
+	left:-8px;
+	display:block;
+	width:0px;
+	height:0px;
+	font-size:0px;
+	line-height:0px;
+	border-color:transparent #fff transparent transparent;
+	border-style:dashed solid dashed dashed;
+	border-width:10px;
+}
+#tip .t_box {
+	position:relative;
+	background-color:#CCC;
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	bottom:-3px;
+	right:-3px;
+}
+#tip .t_box div {
+	position:relative;
+	background-color:#FFF;
+	border:1px solid #ACA899;
+	background:#FFF;
+	padding:1px;
+	top:-3px;
+	left:-3px;
+}
+.tip {
+	overflow: hidden;
+}
+/*-----------------分页-----------------*/
+
+.pages {
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	PADDING-BOTTOM: 3px;
+	MARGIN: 3px;
+	PADDING-TOP: 3px;
+	TEXT-ALIGN: center;
+}
+.pages a {
+	color:#444;
+}
+.pages a:hover {
+	color:#f60;
+	font-weight:bold;
+	BORDER-RIGHT: #312D2A 1px solid;
+	BORDER-TOP: #312D2A 1px solid;
+	BORDER-LEFT:#312D2A 1px solid;
+	COLOR: #312D2A;
+	BORDER-BOTTOM: #312D2A 1px solid
+}
+.current {
+	color:#f60;
+	font-weight:bold;
+	BORDER-RIGHT: #312D2A 1px solid;
+	BORDER-TOP: #312D2A 1px solid;
+	BORDER-LEFT:#312D2A 1px solid;
+	COLOR: #312D2A;
+	BORDER-BOTTOM: #312D2A 1px solid
+}
+.pages ul {
+	float:right;
+}
+.pages li {
+	float:left;
+	margin-left:8px;
+	BORDER-RIGHT: #312D2A 1px solid;
+	PADDING-RIGHT: 5px;
+	BORDER-TOP: #312D2A 1px solid;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	MARGIN: 2px;
+	BORDER-LEFT: #312D2A 1px solid;
+	COLOR: #312D2A;
+	PADDING-TOP: 2px;
+	BORDER-BOTTOM: #312D2A 1px solid;
+}
