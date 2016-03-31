@@ -21,4 +21,5 @@ public interface IBaseDao  {
     public  List<Object> findAll(Object o);//查询所有
     public  void saveOrUpdateEntity(Object o); //添加或者修改
     public  Object  findById(long id,Object o);
+    public  Long getTotal(Object o);
 }

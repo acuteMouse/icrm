@@ -13,4 +13,5 @@ public interface IBaseService {
     public  void update(Object o);
     public  Object  findById(long id,Object o);
     public List<Object> findAll(Object o);
+    public Long getTotal(Object o);
 }

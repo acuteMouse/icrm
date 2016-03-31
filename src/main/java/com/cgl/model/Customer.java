@@ -1,5 +1,6 @@
 package com.cgl.model;
 
+import javax.naming.Name;
 import javax.persistence.*;
 
 /**
@@ -10,15 +11,15 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_customer")
 public class Customer {
-    private  long c_id;//主键
-    private  String c_name;//客户名称。公司名称
-    private  Long c_telphone; // 客户联系电话
-    private  String c_address; //客户位置
-    private  Industry c_industry;//客户行业，外键
-    private  CustomerType c_type;//客户类型，外键
-    private  String  c_email;// 邮箱
+    private long c_id;//主键
+    private String c_name;//客户名称。公司名称
+    private Long c_telphone; // 客户联系电话
+    private String c_address; //客户位置
+    private Industry c_industry;//客户行业，外键
+    private CustomerType c_type;//客户类型，外键
+    private String c_email;// 邮箱
+    private User c_user; //负责人
 
-   
 
     @Id
     @GeneratedValue
@@ -53,7 +54,7 @@ public class Customer {
     public void setC_address(String c_address) {
         this.c_address = c_address;
     }
-    
+
     @ManyToOne
     @JoinColumn(name = "c_industry")
     public Industry getC_industry() {
@@ -63,7 +64,7 @@ public class Customer {
     public void setC_industry(Industry c_industry) {
         this.c_industry = c_industry;
     }
-    
+
     @ManyToOne
     @JoinColumn(name = "c_type")
     public CustomerType getC_type() {
@@ -81,4 +82,15 @@ public class Customer {
     public void setC_email(String c_email) {
         this.c_email = c_email;
     }
+    
+    @ManyToOne
+    @JoinColumn(name="c_user")
+    public User getC_user() {
+        return c_user;
+    }
+
+    public void setC_user(User c_user) {
+        this.c_user = c_user;
+    }
+
 }

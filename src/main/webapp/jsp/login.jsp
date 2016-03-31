@@ -53,7 +53,6 @@
         <input type="submit" value="登陆">
         <input type="reset" value="重置">
     </div>
-    
     <span>${msg}</span>
 </form>
 

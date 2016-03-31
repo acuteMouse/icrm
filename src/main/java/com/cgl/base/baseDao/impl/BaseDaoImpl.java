@@ -4,14 +4,11 @@ import com.cgl.base.baseDao.IBaseDao;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Ejb3Column;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
-import javax.xml.soap.Name;
 import java.util.List;
-import java.util.jar.Attributes;
 
 /**
  * Created cgl on 2016/3/19.
@@ -54,9 +51,17 @@ public class BaseDaoImpl implements IBaseDao {
         return query.uniqueResult();
     }
 
+    //    返回该对象对应表的记录总条数
+    public Long getTotal(Object o) {
+       
+        String sql=("select count(*) from " + o.getClass().getSimpleName());
+        Query query = getSeesion().createQuery(sql);
+        return (Long) query.uniqueResult();
+    }
+
 
     @Resource//注入sessionfactory
-            SessionFactory sessionFactory;
+    protected SessionFactory sessionFactory;
 
     public Session getSeesion() { //返回session，由spring管理
         return sessionFactory.getCurrentSession();

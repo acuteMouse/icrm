@@ -3,7 +3,6 @@ package com.cgl.testDao;
 import com.cgl.base.baseDao.IBaseDao;
 import com.cgl.base.baseDao.impl.BaseDaoImpl;
 import com.cgl.model.User;
-import org.apache.xmlbeans.impl.xb.xsdschema.ListDocument;
 import org.junit.Before;
 import org.junit.Test;
 import org.omg.CORBA.portable.ApplicationException;

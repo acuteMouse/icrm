@@ -1,19 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC
-	"-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
-	"http://struts.apache.org/dtds/struts-2.1.dtd">
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+        "http://struts.apache.org/dtds/struts-2.1.dtd">
 
 <struts>
-
-	<!-- 在写路径时，需要把namespace加到action之前 -->
-	<package namespace="/user" name="user" extends="struts-default">
-		<action name="user_*" class="com.cgl.action.UserAction" method="{1}">
-			<result name="{1}">/jsp/{1}.jsp</result>
-			<result name="success">/jsp/main.jsp</result>
-			<result name="fail">/jsp/login.jsp</result>
-		</action>
-	</package>
-
+    
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.i18n.encoding" value="utf-8"/>
+    <!--用户-->
+    <!-- 在写路径时，需要把namespace加到action之前 -->
+    <package name="user" namespace="/user" extends="json-default">
+        <action name="user_*" class="com.cgl.action.UserAction" method="{1}">
+            <result name="{1}">/jsp/{1}.jsp</result>
+            <result name="loginSuccess">/jsp/main.jsp</result>
+            <result name="loginFail">/jsp/login.jsp</result>
+            <result type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
+    </package>
+    <!--客户-->
+    <package name="customer" namespace="/customer" extends="json-default">
+        <action name="customer_*" class="com.cgl.action.CustomerAction" method="{1}">
+            <result name="{1}">/jsp/client/{1}.jsp</result>
+        </action>
+        <action name="getAllCustomer" class="com.cgl.action.CustomerAction" method="getAllCustomer">
+            <result  type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
+        <action name="getCustomerType" class="com.cgl.action.CustomerAction" method="getCustomerType">
+            <result  type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
+    </package>
 
 </struts>
 	
