@@ -71,27 +71,44 @@
                         });
                         $('#dd').dialog('open'); //打开dialog
                         $('#myform').find('input').val('');//清空表单类容
+                        $('#customerType').find('option').val('');
+                        $('#industryType').find('option').val('');
+//                        加载客户类型的下拉框
                         $.ajax({
-                            url:'customer/getCustomerType.action',
-                            type:"json",
-                            success:function(data){
-                                var datajson=eval(data);
+                            url: 'customer/getCustomerType.action',
+                            dataType: "json",
+                            success: function (data) {
+                                var datajson = eval(data);
 //                                datajson格式：｛types:[{},{},{}]}
 //                                alert(datajson.types[0].ct_name);
-                                for(var i=0;i<datajson.types.length;i++){
-                                    $('#customerType').append("<option value='Value'>"+datajson.types[i].ct_name+"</option>");
+                                var optionNumber = $('#customerType').find('option').length;
+//                                alert(optionNumber);
+//                                防止重复加载
+                                if (optionNumber <= datajson.types.length) {
+                                    for (var i = 0; i < datajson.types.length; i++) {
+                                        $('#customerType').append("<option value='" + datajson.types[i].ct_id + "'>" + datajson.types[i].ct_name + "</option>");
+                                    }
                                 }
-//                    $('input[name="c_type"]')
                             }
-                        });//加载客户类型的下拉框
-//                        $.ajax({
-//                            url:'customer_getCustomerType.action',
-//                            success:function(data){
-//                                var dataList=eval(date);
-//                                alert(dataList.length);
-////                    $('input[name="c_type"]')
-//                            }
-//                        });//加载客户行业的下拉框
+                        });
+                        //加载客户行业类型的下拉框
+                        $.ajax({
+                            url: 'customer/getIndustryType.action',
+                            dataType: "json",
+                            success: function (data) {
+                                var datajson = eval(data);
+//                                datajson格式：｛types:[{},{},{}]}
+//                                alert(datajson.types[0].ct_name);
+                                var optionNumber = $('#industryType').find('option').length;
+//                                alert(optionNumber);//初始的时候都只有一个，一旦第二次加载，当前的option数量一定是大于要加载的数量
+//                                防止重复加载下拉框
+                                if (optionNumber <= datajson.types.length) {
+                                    for (var i = 0; i < datajson.types.length; i++) {
+                                        $('#industryType').append("<option value='" + datajson.types[i].i_id + "'>" + datajson.types[i].i_name + "</option>");
+                                    }
+                                }
+                            }
+                        });
                     }
                 }],
                 pagination: true,
@@ -132,7 +149,8 @@
                 ]],
 
                 fitColumns: true
-            });
+            })
+            ;
             //保存按钮，ajax提交表单
             $('#btn1').click(
                     function () {
@@ -175,8 +193,9 @@
             $('#btn2').click(function () {
                 $('#dd').dialog('close');
             });
-           
-        });
+
+        })
+        ;
     </script>
 </head>
 
@@ -221,8 +240,9 @@
             <label for="c_industry">
                 行业：
             </label>
-            <input class="easyui-validatebox" type="text" name="c_industry"
-                   required="true"/>
+            <select id="industryType">
+                <option value="">请选择</option>
+            </select>
         </div>
         <div>
             <label for="c_type">
