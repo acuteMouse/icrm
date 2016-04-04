@@ -31,7 +31,7 @@ public class UserAction implements ModelDriven<User> {
         User u = userService.checkUser(user);// 根据用户名获取用户信息,
         // 验证密码是否正确
         if (u != null && u.getU_password().equals(user.getU_password())) {
-            ActionContext.getContext().put("user", u);
+           ActionContext.getContext().getSession().put("user",u);
             return "loginSuccess";
         } else {
             ActionContext.getContext().put("msg", "用户名或密码错误！");
