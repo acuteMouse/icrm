@@ -29,6 +29,46 @@
     <script type="text/javascript"
             src="js/jquery-easyui-1.2.6/locale/easyui-lang-zh_CN.js"></script>
     <script type="text/javascript">
+        //        ajax加载客户类型
+        function ajaxGetCustomerType() {
+            $.ajax({
+                url: 'customer/getCustomerType.action',
+                dataType: "json",
+                success: function (data) {
+                    var datajson = eval(data);
+//                                datajson格式：｛types:[{},{},{}]}
+//                                alert(datajson.types[0].ct_name);
+                    var optionNumber = $('#customerType').find('option').length;
+//                                alert(optionNumber);
+//                                防止重复加载
+                    if (optionNumber <= datajson.types.length) {
+                        for (var i = 0; i < datajson.types.length; i++) {
+                            $('#customerType').append("<option value='" + datajson.types[i].ct_id + "'>" + datajson.types[i].ct_name + "</option>");
+                        }
+                    }
+                }
+            });
+        }
+        //        ajax 加载行业类型
+        function ajaxGetIndustryType() {
+            $.ajax({
+                url: 'customer/getIndustryType.action',
+                dataType: "json",
+                success: function (data) {
+                    var datajson = eval(data);
+//                                datajson格式：｛types:[{},{},{}]}
+//                                alert(datajson.types[0].ct_name);
+                    var optionNumber = $('#industryType').find('option').length;
+//                                alert(optionNumber);//初始的时候都只有一个，一旦第二次加载，当前的option数量一定是大于要加载的数量
+//                                防止重复加载下拉框
+                    if (optionNumber <= datajson.types.length) {
+                        for (var i = 0; i < datajson.types.length; i++) {
+                            $('#industryType').append("<option value='" + datajson.types[i].i_id + "'>" + datajson.types[i].i_name + "</option>");
+                        }
+                    }
+                }
+            });
+        }
         $(function () {
             //加载数据表格 
             var flag = '';
@@ -42,7 +82,7 @@
                         if (arr.length != 1) {
                             $.messager.show({
                                 title: '提示信息',
-                                msg: '一次只能修改一个',
+                                msg: '请选择要修改的单条信息',
                                 timeout: 3000,
                                 showType: 'slide'
                             });
@@ -52,11 +92,14 @@
                             });
                             $('#dd').dialog('open');
                             $('#myform').find('input').val('');
+                            ajaxGetCustomerType();
+                            ajaxGetIndustryType();
                             $('#myform').form('load', {
-                                id: arr[0].id,
-                                name: arr[0].name,
-                                number: arr[0].number,
-
+                                c_id: arr[0].c_id,
+                                c_name: arr[0].c_name,
+                                c_telphone: arr[0].c_telphone,
+                                c_address: arr[0].c_address,
+                                c_email: arr[0].c_email,
                             });
 
                         }
@@ -71,44 +114,10 @@
                         });
                         $('#dd').dialog('open'); //打开dialog
                         $('#myform').find('input').val('');//清空表单类容
-                        $('#customerType').find('option').val('');
-                        $('#industryType').find('option').val('');
 //                        加载客户类型的下拉框
-                        $.ajax({
-                            url: 'customer/getCustomerType.action',
-                            dataType: "json",
-                            success: function (data) {
-                                var datajson = eval(data);
-//                                datajson格式：｛types:[{},{},{}]}
-//                                alert(datajson.types[0].ct_name);
-                                var optionNumber = $('#customerType').find('option').length;
-//                                alert(optionNumber);
-//                                防止重复加载
-                                if (optionNumber <= datajson.types.length) {
-                                    for (var i = 0; i < datajson.types.length; i++) {
-                                        $('#customerType').append("<option value='" + datajson.types[i].ct_id + "'>" + datajson.types[i].ct_name + "</option>");
-                                    }
-                                }
-                            }
-                        });
+                        ajaxGetCustomerType();
                         //加载客户行业类型的下拉框
-                        $.ajax({
-                            url: 'customer/getIndustryType.action',
-                            dataType: "json",
-                            success: function (data) {
-                                var datajson = eval(data);
-//                                datajson格式：｛types:[{},{},{}]}
-//                                alert(datajson.types[0].ct_name);
-                                var optionNumber = $('#industryType').find('option').length;
-//                                alert(optionNumber);//初始的时候都只有一个，一旦第二次加载，当前的option数量一定是大于要加载的数量
-//                                防止重复加载下拉框
-                                if (optionNumber <= datajson.types.length) {
-                                    for (var i = 0; i < datajson.types.length; i++) {
-                                        $('#industryType').append("<option value='" + datajson.types[i].i_id + "'>" + datajson.types[i].i_name + "</option>");
-                                    }
-                                }
-                            }
-                        });
+                        ajaxGetIndustryType();
                     }
                 }],
                 pagination: true,
@@ -147,7 +156,10 @@
 
 
                 ]],
-
+//                设置分页初始值，可选项
+                pageNumber: 1, 
+                pageSize: 15,
+                pageList: [15, 25, 35, 45, 55],
                 fitColumns: true
             })
             ;
@@ -157,7 +169,7 @@
                         if ($('#myform').form('validate')) {
                             $.ajax({
                                 type: 'post',
-                                url: 'updateProduct',
+                                url: flag == 'add' ? 'customer/customer_addCustomer.action' : 'customer/customer_updateCustomer.action',
                                 data: $('#myform').serialize(),
                                 dataType: 'json',
                                 success: function () {
@@ -200,58 +212,38 @@
 </head>
 
 <body>
+<%--数据表格--%>
 <table id="dg"></table>
+<%--添加信息框--信息修改框--%>
 <div id="dd" class="easyui-dialog" title="添加客户" modal=true
      style="width: 400px;"
      data-options="iconCls:'icon-save',resizable:true,modal:true"
      closed=true>
     <form id="myform" method="post" style="text-align: center;">
-        <input type="hidden" value="" name="id">
-        <div>
-            <label for="c_name">
-                名称:
-            </label>
-            <input class="easyui-validatebox" type="text" name="c_name"
-                   required="true"/>
-        </div>
+        <input type="hidden" value="" name="c_id">
 
-        <div>
-            <label for="c_telphone">
-                联系电话：
-            </label>
-            <input class="easyui-validatebox" type="text" name="c_telphone"
-                   required="true"/>
-        </div>
-        <div>
-            <label for="c_eamail">
-                邮箱：
-            </label>
-            <input class="easyui-validatebox" data-options="validType:'email'" name="c_eamail"
-                   required="true"/>
-        </div>
-        <div>
-            <label for="c_address">
-                地址：
-            </label>
-            <input class="easyui-validatebox" type="text" name="c_address"
-                   required="true"/>
-        </div>
-        <div>
-            <label for="c_industry">
-                行业：
-            </label>
-            <select id="industryType">
-                <option value="">请选择</option>
-            </select>
-        </div>
-        <div>
-            <label for="c_type">
-                客户类型：
-            </label>
-            <select id="customerType">
-                <option value="">请选择</option>
-            </select>
-        </div>
+        名称:
+        <input class="easyui-validatebox" type="text" name="c_name"
+               required="true"/> </br>
+
+
+        联系电话：
+        <input class="easyui-validatebox" type="text" name="c_telphone"
+               required="true"/> </br>
+        邮箱：
+        <input class="easyui-validatebox" data-options="validType:'email'" name="c_email"
+               required="true"/> </br>
+        地址：
+        <input class="easyui-validatebox" type="text" name="c_address"
+               required="true"/> </br>
+        行业：
+        <select id="industryType" name="industryId">
+            <option value="">请选择</option>
+        </select> </br>
+        客户类型：
+        <select id="customerType" name="c_typeId">
+            <option value="">请选择</option>
+        </select> </br>
 
 
         <div>

@@ -2,11 +2,10 @@ package com.cgl.action;
 
 import javax.annotation.Resource;
 
-import com.cgl.base.baseService.impl.BaseServiceImpl;
 import com.cgl.model.Customer;
+import com.cgl.util.Page;
 import com.opensymphony.xwork2.ModelDriven;
 import net.sf.json.JSONObject;
-import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 
 import com.cgl.model.User;
@@ -14,7 +13,6 @@ import com.cgl.service.IUserService;
 import com.opensymphony.xwork2.ActionContext;
 
 import java.util.List;
-import java.util.Map;
 
 @Controller
 public class UserAction implements ModelDriven<User> {
@@ -22,6 +20,7 @@ public class UserAction implements ModelDriven<User> {
     @Resource
     private IUserService userService;
     private JSONObject datemap;
+    private Page page;
 
     /**
      * 2016-03-15 登陆

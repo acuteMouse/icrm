@@ -120,7 +120,6 @@
     <div region="center" title="我的工作台" style="padding: 5px;">
         <div id="tt" class="easyui-tabs" fit=true
              style="width: 500px; height: 250px;">
-            欢迎使用本系统！
         </div>
     </div>
 </div>

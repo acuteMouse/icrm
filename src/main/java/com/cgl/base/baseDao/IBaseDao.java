@@ -1,11 +1,7 @@
 package com.cgl.base.baseDao;
 
-import org.springframework.orm.jpa.vendor.EclipseLinkJpaDialect;
-import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
+import com.cgl.util.Page;
 
-import javax.persistence.Entity;
-import java.util.Collection;
 import java.util.List;
 
 /**
@@ -22,4 +18,6 @@ public interface IBaseDao  {
     public  void saveOrUpdateEntity(Object o); //添加或者修改
     public  Object  findById(long id,Object o);
     public  Long getTotal(Object o);
+//    分页
+    List findAllByPAge(Object o, Page p);
 }

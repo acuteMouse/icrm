@@ -1,17 +1,14 @@
 package com.cgl.testDao;
 
 import com.cgl.base.baseDao.IBaseDao;
-import com.cgl.base.baseDao.impl.BaseDaoImpl;
 import com.cgl.model.User;
+import com.cgl.util.Page;
 import org.junit.Before;
 import org.junit.Test;
-import org.omg.CORBA.portable.ApplicationException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 /**
  * Created cgl on 2016/3/22.
@@ -56,7 +53,8 @@ public class BaseDaoImplTest {
     @Test
     public void testFindAll() throws Exception {
         IBaseDao baseDao=(IBaseDao) act.getBean("baseDao");
-        List userList= baseDao.findAll(new User());
+        Page page=new Page(0,15);
+        List userList= baseDao.findAllByPAge(new User(),page);
         for (Object u:userList){
             System.out.println(((User)u).getU_address());
         }

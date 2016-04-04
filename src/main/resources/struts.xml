@@ -34,6 +34,11 @@
                 <param name="root">dateMap</param>
             </result>
         </action>
+        <action name="getIndustryType" class="com.cgl.action.CustomerAction" method="getIndustryType">
+            <result  type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
     </package>
 
 </struts>

@@ -2,7 +2,7 @@ package com.cgl.base.baseService.impl;
 
 import com.cgl.base.baseDao.IBaseDao;
 import com.cgl.base.baseService.IBaseService;
-import org.springframework.stereotype.Service;
+import com.cgl.util.Page;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -40,5 +40,9 @@ public class BaseServiceImpl implements IBaseService {
     public Long getTotal(Object o) {
        Long total= baseDao.getTotal(o);
         return  total==null?0:total;
+    }
+    //分页查询
+    public List findAllByPage(Object o, Page p) {
+        return baseDao.findAllByPAge(o,p);
     }
 }

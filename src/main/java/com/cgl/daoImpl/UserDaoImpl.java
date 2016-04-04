@@ -8,7 +8,7 @@ import com.cgl.base.baseDao.impl.BaseDaoImpl;
 import com.cgl.dao.IUserDao;
 import com.cgl.model.User;
 
-@Repository(value = "userDao")
+@Repository("userDao")
 public class UserDaoImpl extends BaseDaoImpl implements IUserDao {
 
 	public User getUserByName(User user) {

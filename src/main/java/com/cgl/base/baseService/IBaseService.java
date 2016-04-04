@@ -1,5 +1,8 @@
 package com.cgl.base.baseService;
 
+import com.cgl.model.Customer;
+import com.cgl.util.Page;
+
 import java.util.List;
 
 /**
@@ -14,4 +17,6 @@ public interface IBaseService {
     public  Object  findById(long id,Object o);
     public List<Object> findAll(Object o);
     public Long getTotal(Object o);
+
+    List findAllByPage(Object o, Page p);
 }

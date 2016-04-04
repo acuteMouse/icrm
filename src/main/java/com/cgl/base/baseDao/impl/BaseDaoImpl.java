@@ -1,6 +1,7 @@
 package com.cgl.base.baseDao.impl;
 
 import com.cgl.base.baseDao.IBaseDao;
+import com.cgl.util.Page;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -32,10 +33,8 @@ public class BaseDaoImpl implements IBaseDao {
     }
 
 
-    public List findAll(Object o) {
-        StringBuffer hql = new StringBuffer(512);
-        hql.append("from " + o.getClass().getSimpleName());
-        Query query = getSeesion().createQuery(hql.toString());
+    public List<Object> findAll(Object o) {
+        Query query = getSeesion().createQuery("from " + o.getClass().getSimpleName());
         return query.list();
     }
 
@@ -44,9 +43,7 @@ public class BaseDaoImpl implements IBaseDao {
     }
 
     public Object findById(long id, Object o) {
-        StringBuffer sql = new StringBuffer(512);
-        sql.append("From " + o.getClass().getSimpleName() + " where id=:id");
-        Query query = getSeesion().createQuery(sql.toString());
+        Query query = getSeesion().createQuery(("From " + o.getClass().getSimpleName() + " where id=:id"));
         query.setParameter("id", id);
         return query.uniqueResult();
     }
@@ -57,6 +54,13 @@ public class BaseDaoImpl implements IBaseDao {
         String sql=("select count(*) from " + o.getClass().getSimpleName());
         Query query = getSeesion().createQuery(sql);
         return (Long) query.uniqueResult();
+    }
+//    带分页的查询
+    public List findAllByPAge(Object o, Page p) {
+        Query query=getSeesion().createQuery("from "+o.getClass().getSimpleName());
+        query.setMaxResults(p.getRows());//设置一页多少行数据
+        query.setFirstResult((p.getPage()-1)*p.getRows());//mysql中分页从0开始
+        return query.list();
     }
 
 
