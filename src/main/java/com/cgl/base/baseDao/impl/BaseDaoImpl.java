@@ -50,22 +50,44 @@ public class BaseDaoImpl implements IBaseDao {
 
     //    返回该对象对应表的记录总条数
     public Long getTotal(Object o) {
-       
-        String sql=("select count(*) from " + o.getClass().getSimpleName());
+
+        String sql = ("select count(*) from " + o.getClass().getSimpleName());
         Query query = getSeesion().createQuery(sql);
         return (Long) query.uniqueResult();
     }
-//    带分页的查询
+
+    //    带分页的查询
     public List findAllByPAge(Object o, Page p) {
-        Query query=getSeesion().createQuery("from "+o.getClass().getSimpleName());
+        Query query = getSeesion().createQuery("from " + o.getClass().getSimpleName());
         query.setMaxResults(p.getRows());//设置一页多少行数据
-        query.setFirstResult((p.getPage()-1)*p.getRows());//mysql中分页从0开始
+        query.setFirstResult((p.getPage() - 1) * p.getRows());//mysql中分页从0开始
         return query.list();
+    }
+
+    /**
+     * @param o
+     * @param ids
+     */
+    //批量删除
+    public void deleteAll(Object o, List<Integer> ids) {
+        StringBuffer sql = new StringBuffer(128);
+        sql.append("delete from " + o.getClass().getSimpleName());
+        sql.append(" where id in (");
+        if (ids.size() > 1) {
+
+//        动态添加ID到sql中，最后一个单独添加
+            for (int i = 0; i < ids.size() - 1; i++) {
+                sql.append(ids.get(i)+ ",");
+            }
+        }
+        sql.append(ids.get(ids.size()-1) + ")");
+        Query query = getSeesion().createQuery(sql.toString());
+        query.executeUpdate();
     }
 
 
     @Resource//注入sessionfactory
-    protected SessionFactory sessionFactory;
+    public SessionFactory sessionFactory;
 
     public Session getSeesion() { //返回session，由spring管理
         return sessionFactory.getCurrentSession();

@@ -1,6 +1,7 @@
 package com.cgl.testDao;
 
 import com.cgl.base.baseDao.IBaseDao;
+import com.cgl.model.Customer;
 import com.cgl.model.User;
 import com.cgl.util.Page;
 import org.junit.Before;
@@ -8,6 +9,7 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -62,7 +64,8 @@ public class BaseDaoImplTest {
 
     @Test
     public void testSaveOrUpdateEntity() throws Exception {
-
+        IBaseDao baseDao= (IBaseDao) act.getBean("baseDao");
+        
     }
 
     @Test
@@ -70,5 +73,12 @@ public class BaseDaoImplTest {
         IBaseDao baseDao=(IBaseDao) act.getBean("baseDao");
         User user = (User) baseDao.findById(2,new User());
     }
-    
+
+    @Test
+    public void testDeleteAll() throws Exception {
+        IBaseDao baseDao=(IBaseDao) act.getBean("baseDao");
+        List<Integer> ids=new ArrayList<Integer>();
+        ids.add(3);
+        baseDao.deleteAll(new Customer(),ids);
+    }
 }

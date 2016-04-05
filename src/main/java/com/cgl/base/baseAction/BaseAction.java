@@ -25,5 +25,6 @@ public class BaseAction {
     protected ICustomerService customerService;
     @Resource
     protected IUserService userService;
+    @Resource
     protected IIndustryService industryService;
 }

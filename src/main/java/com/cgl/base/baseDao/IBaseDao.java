@@ -20,4 +20,6 @@ public interface IBaseDao  {
     public  Long getTotal(Object o);
 //    分页
     List findAllByPAge(Object o, Page p);
+//    批量删除
+    void deleteAll(Object o, List<Integer> ids);
 }

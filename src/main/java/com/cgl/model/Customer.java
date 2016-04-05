@@ -19,15 +19,14 @@ public class Customer {
     private CustomerType c_type;//客户类型，外键
     private String c_email;// 邮箱
     private User c_user; //负责人
-
-
+    
     @Id
     @GeneratedValue
     public long getId() {
         return id;
     }
 
-    public void setId(long c_id) {
+    public void setId(long id) {
         this.id = id;
     }
 

@@ -43,7 +43,7 @@
 //                                防止重复加载
                     if (optionNumber <= datajson.types.length) {
                         for (var i = 0; i < datajson.types.length; i++) {
-                            $('#customerType').append("<option value='" + datajson.types[i].ct_id + "'>" + datajson.types[i].ct_name + "</option>");
+                            $('#customerType').append("<option value='" + datajson.types[i].id + "'>" + datajson.types[i].ct_name + "</option>");
                         }
                     }
                 }
@@ -63,7 +63,7 @@
 //                                防止重复加载下拉框
                     if (optionNumber <= datajson.types.length) {
                         for (var i = 0; i < datajson.types.length; i++) {
-                            $('#industryType').append("<option value='" + datajson.types[i].i_id + "'>" + datajson.types[i].i_name + "</option>");
+                            $('#industryType').append("<option value='" + datajson.types[i].id + "'>" + datajson.types[i].i_name + "</option>");
                         }
                     }
                 }
@@ -95,7 +95,7 @@
                             ajaxGetCustomerType();
                             ajaxGetIndustryType();
                             $('#myform').form('load', {
-                                c_id: arr[0].c_id,
+                                id: arr[0].id,
                                 c_name: arr[0].c_name,
                                 c_telphone: arr[0].c_telphone,
                                 c_address: arr[0].c_address,
@@ -119,10 +119,54 @@
                         //加载客户行业类型的下拉框
                         ajaxGetIndustryType();
                     }
-                }],
+                }, {
+                    text: '删除',
+                    iconCls: 'icon-no',
+                    handler: function () {
+                        var arr = $('#dg').datagrid('getSelections');
+                        if (arr.length < 1) {
+                            $.messager.show({
+                                title: '提示信息',
+                                msg: '请选择至少一行进行删除',
+                                timeout: 2000,
+                                showType: 'slide'
+                            });
+                        } else {
+                            $.messager.confirm('友情提示', '确定要删除吗？', function (r) {
+                                if (!r) {
+                                    return '';
+                                } else {
+                                    var ids = '';
+                                    for (var i = 0; i < arr.length; i++) {
+                                        ids += arr[i].id + ','; //ids是string类型的，后台接受也应该用一个String的数组
+                                    }
+                                    ids = ids.substring(0, ids.length - 1);
+                                    $.ajax({
+                                        url: 'customer/customer_deleteCustomer.action',
+                                        data: {'ids': ids},//发送数据
+                                        type: "post",
+                                        success: function () {
+                                            $('#dg').datagrid('reload');
+                                            $.messager.show({
+                                                title: '提示信息',
+                                                msg: '操作成功',
+                                                timeout: 3000,
+                                                showType: 'slide'
+                                            });
+                                        }
+                                    });
+                                }
+                            });
+
+                        }
+
+                    }
+
+                }
+                ],
                 pagination: true,
                 url: 'customer/getAllCustomer.action',
-                idField: 'c_id',
+                idField: 'id',
                 frozenColumns: [[{
                     field: 'checkbox',
                     width: 50,
@@ -130,7 +174,7 @@
                 }]],
                 striped: true,
                 columns: [[
-                    {field: 'c_id', title: 'ID', width: 100},
+                    {field: 'id', title: 'ID', width: 100},
                     {field: 'c_name', title: '名称', width: 100},
                     {field: 'c_address', title: '地址', width: 100},
                     {field: 'c_telphone', title: '联系电话', width: 100},
@@ -157,7 +201,7 @@
 
                 ]],
 //                设置分页初始值，可选项
-                pageNumber: 1, 
+                pageNumber: 1,
                 pageSize: 15,
                 pageList: [15, 25, 35, 45, 55],
                 fitColumns: true
@@ -186,7 +230,7 @@
                                     $.messager.show({
                                         title: result.status,
                                         msg: result.message,
-                                        timeout: 3000,
+                                        timeout: 2000,
                                         showType: 'slide'
                                     });
                                 }
@@ -220,7 +264,7 @@
      data-options="iconCls:'icon-save',resizable:true,modal:true"
      closed=true>
     <form id="myform" method="post" style="text-align: center;">
-        <input type="hidden" value="" name="c_id">
+        <input type="hidden" value="" name="id">
 
         名称:
         <input class="easyui-validatebox" type="text" name="c_name"

@@ -19,4 +19,6 @@ public interface IBaseService {
     public Long getTotal(Object o);
 
     List findAllByPage(Object o, Page p);
+//    批量删除
+    void deleteAll(Customer customer, String ids);
 }

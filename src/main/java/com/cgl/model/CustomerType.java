@@ -19,16 +19,15 @@ public class CustomerType {
 
     @Id
     @GeneratedValue
-    public String getCt_name() {
-        return ct_name;
-    }
-
     public long getId() {
         return id;
     }
 
     public void setId(long id) {
         this.id = id;
+    }
+    public String getCt_name() {
+        return ct_name;
     }
 
     public void setCt_name(String ct_name) {

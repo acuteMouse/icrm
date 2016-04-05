@@ -71,6 +71,10 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
         
         customerService.add(customer);
     }
+
+    /**
+     * 删除用户
+     */
     public void  deleteCustomer(){
         customerService.deleteAll(new Customer(),ids);
     }
@@ -157,5 +161,13 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
 
     public void setPage(int page) {
         this.page = page;
+    }
+
+    public String getIds() {
+        return ids;
+    }
+
+    public void setIds(String ids) {
+        this.ids = ids;
     }
 }
