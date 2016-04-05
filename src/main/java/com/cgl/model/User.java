@@ -14,7 +14,7 @@ import java.util.Date;
 @Entity
 @Table(name = "t_user")
 public class User {
-    private long u_id;  //主键
+    private long id;  //主键
     private String u_userName;  //登陆系统帐号
     private String u_password;  //登陆密码
     private String u_trueName; //真实姓名
@@ -28,22 +28,6 @@ public class User {
     private String u_remark;   //备注
     private Date u_startDate;   //入职时间
     
-    //有参构造器
-    public User(int u_id, String u_userName, String u_password, String u_trueName, String u_sex, String u_telphone, String u_address, int u_age, Long idNum, Department u_department, UserType u_userType, String u_remark, Date u_startDate) {
-        this.u_id = u_id;
-        this.u_userName = u_userName;
-        this.u_password = u_password;
-        this.u_trueName = u_trueName;
-        this.u_sex = u_sex;
-        this.u_telphone = u_telphone;
-        this.u_address = u_address;
-        this.u_age = u_age;
-        this.u_idNum=u_idNum;
-        this.u_department = u_department;
-        this.u_userType = u_userType;
-        this.u_remark = u_remark;
-        this.u_startDate = u_startDate;
-    }
     //无参构造器
     public User() {
     }
@@ -52,14 +36,13 @@ public class User {
     //-----get/set
     @Id
     @GeneratedValue
-    public long getU_id() {
-        return u_id;
+    public long getId() {
+        return id;
     }
 
-    public void setU_id(long u_id) {
-        this.u_id = u_id;
+    public void setId(long id) {
+        this.id = id;
     }
-
     public String getU_userName() {
         return u_userName;
     }

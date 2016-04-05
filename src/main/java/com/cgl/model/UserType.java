@@ -13,8 +13,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "t_userType")
 public class UserType {
-    
-    private long ut_id;//  主键
+
+    private long id;//  主键
     private String ut_name;// 类型名称
     private String ut_remark; //备注
 
@@ -22,12 +22,12 @@ public class UserType {
 
     @Id
     @GeneratedValue
-    public long getUt_id() {
-        return ut_id;
+    public long getId() {
+        return id;
     }
 
-    public void setUt_id(long ut_id) {
-        this.ut_id = ut_id;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getUt_name() {
