@@ -4,12 +4,15 @@ import com.cgl.base.baseAction.BaseAction;
 import com.cgl.model.Customer;
 import com.cgl.model.CustomerType;
 import com.cgl.model.Industry;
+import com.cgl.model.User;
 import com.cgl.service.ICustomerService;
 import com.cgl.service.ICustomerTypeService;
 import com.cgl.service.IIndustryService;
 import com.cgl.util.Page;
 import com.opensymphony.xwork2.Action;
+import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ModelDriven;
+import org.apache.struts2.ServletActionContext;
 import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
@@ -31,6 +34,7 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
     private long c_typeId;
     private int page;
     private int rows;
+    private String ids;//删除用，支持批量
 
     //    查询所有客户,带分页
     public String getAllCustomer() {
@@ -53,14 +57,22 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
      * @return
      */
     public void addCustomer() {
-
 //        查询客户类型
         CustomerType customerType = (CustomerType) customerTypeService.findById(c_typeId, new CustomerType());
 //            查询行业类型
         Industry industry = (Industry) industryService.findById(industryId, new Industry());
         customer.setC_type(customerType);
         customer.setC_industry(industry);
+        User loginUser = new User();
+        if (customer.getC_user() == null) {
+            loginUser = (User) ActionContext.getContext().getSession().get("user");//获取当前登陆用户，默认是当前登陆用户
+            customer.setC_user(loginUser);
+        }
+        
         customerService.add(customer);
+    }
+    public void  deleteCustomer(){
+        customerService.deleteAll(new Customer(),ids);
     }
 
     /**

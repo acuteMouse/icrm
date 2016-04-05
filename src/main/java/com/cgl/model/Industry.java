@@ -13,18 +13,18 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "t_industry")
 public class Industry {
-    private long i_id;//主键
+    private long id;//主键
     private String i_name;//行业名称
 
     
     @Id
     @GeneratedValue
-    public long getI_id() {
-        return i_id;
+    public long getId() {
+        return id;
     }
 
-    public void setI_id(long i_id) {
-        this.i_id = i_id;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getI_name() {

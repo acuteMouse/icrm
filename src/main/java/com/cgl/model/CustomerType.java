@@ -13,23 +13,22 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "t_CustomerType")
 public class CustomerType {
-    private long ct_id;//主键
-    private  String ct_name;//客户分类，名
+    private long id;//主键
+    private String ct_name;//客户分类，名
 
-    
 
     @Id
     @GeneratedValue
-    public long getCt_id() {
-        return ct_id;
-    }
-
-    public void setCt_id(long ct_id) {
-        this.ct_id = ct_id;
-    }
-    
     public String getCt_name() {
         return ct_name;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public void setCt_name(String ct_name) {

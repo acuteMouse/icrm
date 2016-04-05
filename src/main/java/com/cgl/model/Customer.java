@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_customer")
 public class Customer {
-    private long c_id;//主键
+    private long id;//主键
     private String c_name;//客户名称。公司名称
     private Long c_telphone; // 客户联系电话
     private String c_address; //客户位置
@@ -23,12 +23,12 @@ public class Customer {
 
     @Id
     @GeneratedValue
-    public long getC_id() {
-        return c_id;
+    public long getId() {
+        return id;
     }
 
-    public void setC_id(long c_id) {
-        this.c_id = c_id;
+    public void setId(long c_id) {
+        this.id = id;
     }
 
     public String getC_name() {
@@ -82,9 +82,9 @@ public class Customer {
     public void setC_email(String c_email) {
         this.c_email = c_email;
     }
-    
+
     @ManyToOne
-    @JoinColumn(name="c_user")
+    @JoinColumn(name = "c_user")
     public User getC_user() {
         return c_user;
     }

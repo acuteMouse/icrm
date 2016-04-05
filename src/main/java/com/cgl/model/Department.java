@@ -10,21 +10,20 @@ import javax.persistence.*;
 @Entity
 @Table(name = "t_department")
 public class Department {
-    
-    private long d_id;//主键
+
+    private long id;//主键
     private String d_name;//部门名称
     private Department d_parentDeparment; //上级部门
 
- 
 
     @Id
     @GeneratedValue
-    public long getD_id() {
-        return d_id;
+    public long getId() {
+        return id;
     }
 
-    public void setD_id(long d_id) {
-        this.d_id = d_id;
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getD_name() {
@@ -34,7 +33,7 @@ public class Department {
     public void setD_name(String d_name) {
         this.d_name = d_name;
     }
-    
+
     @ManyToOne
     @JoinColumn(name = "d_parentDepartment")
     public Department getD_parentDeparment() {
