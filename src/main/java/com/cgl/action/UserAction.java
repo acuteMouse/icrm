@@ -4,6 +4,7 @@ import javax.annotation.Resource;
 
 import com.cgl.model.Customer;
 import com.cgl.util.Page;
+import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ModelDriven;
 import net.sf.json.JSONObject;
 import org.springframework.stereotype.Controller;
@@ -38,20 +39,11 @@ public class UserAction implements ModelDriven<User> {
             return "loginFail";
         }
     }
+    public String getUserById (){
 
-    /**
-     * 2016-03-20
-     * 返回所有客户信息，带分页功能
-     */
-    
-    public void getAllCustomer() {
-        List customers = userService.findAll(new Customer());
-        JSONObject jsonObject = new JSONObject();
-        long total = userService.getTotal(new Customer());
-        jsonObject.put("total", total);
-        jsonObject.put("rows", customers);
+        return Action.SUCCESS;
     }
-    
+
     public JSONObject getDatemap() {
         return datemap;
     }

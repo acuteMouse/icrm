@@ -1,7 +1,8 @@
 package com.cgl.daoImpl;
 
 import com.cgl.base.baseDao.impl.BaseDaoImpl;
-import com.cgl.dao.ICustomerDao;
+import com.cgl.dao.ICustomerTypeDao;
+import com.cgl.model.CustomerType;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -10,5 +11,13 @@ import org.springframework.stereotype.Repository;
  * 作用：
  */
 @Repository("customerTypeDao")
-public class CustomerTypeDaoImpl extends BaseDaoImpl implements ICustomerDao {
+public class CustomerTypeDaoImpl extends BaseDaoImpl implements ICustomerTypeDao {
+    /**
+     * 根据名称查找 客户类型
+     * @param ct_name
+     * @return
+     */
+    public CustomerType checkByTypeName(String ct_name) {
+        return (CustomerType) getSeesion().createQuery("from CustomerType where ct_name=:ct_name").setParameter("ct_name", ct_name).uniqueResult();
+    }
 }

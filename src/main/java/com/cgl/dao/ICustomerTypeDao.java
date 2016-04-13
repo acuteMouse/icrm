@@ -1,6 +1,7 @@
 package com.cgl.dao;
 
 import com.cgl.base.baseDao.IBaseDao;
+import com.cgl.model.CustomerType;
 
 /**
  * Created cgl on 2016/4/2.
@@ -8,4 +9,5 @@ import com.cgl.base.baseDao.IBaseDao;
  * 作用：
  */
 public interface ICustomerTypeDao extends IBaseDao {
+    CustomerType checkByTypeName(String ct_name);
 }

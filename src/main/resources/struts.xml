@@ -39,7 +39,16 @@
                 <param name="root">dateMap</param>
             </result>
         </action>
+        <action name="customerType_*" class="com.cgl.action.CustomerTypeAction" method="{1}">
+            <result type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
+        <action name="industry_*" class="com.cgl.action.IndustryAction" method="{1}">
+            <result type="json">
+                <param name="root">dateMap</param>
+            </result>
+        </action>
     </package>
-
 </struts>
 	

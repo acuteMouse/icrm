@@ -153,6 +153,14 @@
                                                 timeout: 3000,
                                                 showType: 'slide'
                                             });
+                                        },
+                                        error: function (result) {
+                                            $.messager.show({
+                                                title: result.status,
+                                                msg: result.message,
+                                                timeout: 2000,
+                                                showType: 'slide'
+                                            });
                                         }
                                     });
                                 }
@@ -203,6 +211,7 @@
 //                设置分页初始值，可选项
                 pageNumber: 1,
                 pageSize: 15,
+                AllowPaging: true,
                 pageList: [15, 25, 35, 45, 55],
                 fitColumns: true
             })
@@ -265,21 +274,17 @@
      closed=true>
     <form id="myform" method="post" style="text-align: center;">
         <input type="hidden" value="" name="id">
-
         名称:
         <input class="easyui-validatebox" type="text" name="c_name"
-               required="true"/> </br>
-
-
-        联系电话：
+               data-options="required:true"/> </br>
+        电话：
         <input class="easyui-validatebox" type="text" name="c_telphone"
-               required="true"/> </br>
+               data-options="required:true,validType:+'length[7,11]'"/> </br>
         邮箱：
-        <input class="easyui-validatebox" data-options="validType:'email'" name="c_email"
-               required="true"/> </br>
+        <input class="easyui-validatebox" data-options="required:true,validType:['email','length[0,20]']"
+               name="c_email"/> </br>
         地址：
-        <input class="easyui-validatebox" type="text" name="c_address"
-               required="true"/> </br>
+        <input class="easyui-validatebox" type="text" name="c_address" data-options="required:true"/> </br>
         行业：
         <select id="industryType" name="industryId">
             <option value="">请选择</option>

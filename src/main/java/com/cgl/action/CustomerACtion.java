@@ -29,16 +29,13 @@ import java.util.Map;
 public class CustomerAction extends BaseAction implements ModelDriven<Customer> {
     private Map<String, Object> dateMap;
     private Customer customer = new Customer();
-
     private long industryId;
     private long c_typeId;
-    private int page;
-    private int rows;
     private String ids;//删除用，支持批量
 
     //    查询所有客户,带分页
     public String getAllCustomer() {
-        Page p = new Page(page, rows);//分页
+        Page p = getPageInfo();//分页
 //        查出所有客户
         List customers = customerService.findAllByPage(new Customer(), p);
         long total = customerService.getTotal(new Customer());
@@ -68,27 +65,26 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
             loginUser = (User) ActionContext.getContext().getSession().get("user");//获取当前登陆用户，默认是当前登陆用户
             customer.setC_user(loginUser);
         }
-        
+
         customerService.add(customer);
     }
 
     /**
      * 删除用户
      */
-    public void  deleteCustomer(){
-        customerService.deleteAll(new Customer(),ids);
+    public void deleteCustomer() {
+        customerService.deleteAll(new Customer(), ids);
     }
 
     /**
      * 修改客户信息
      */
     public void updateCustomer() {
-        System.out.println(customer);
         CustomerType customerType = (CustomerType) customerTypeService.findById(c_typeId, new CustomerType());
 //            查询行业类型
         Industry industry = (Industry) industryService.findById(industryId, new Industry());
-        customer.setC_type(customerType);
         customer.setC_industry(industry);
+        customer.setC_type(customerType);
         customerService.update(customer);
 
     }
@@ -145,22 +141,6 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
 
     public void setC_typeId(long c_typeId) {
         this.c_typeId = c_typeId;
-    }
-
-    public int getRows() {
-        return rows;
-    }
-
-    public void setRows(int rows) {
-        this.rows = rows;
-    }
-
-    public int getPage() {
-        return page;
-    }
-
-    public void setPage(int page) {
-        this.page = page;
     }
 
     public String getIds() {

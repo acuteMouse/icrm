@@ -3,6 +3,7 @@ package com.cgl.base.baseService.impl;
 import com.cgl.base.baseDao.IBaseDao;
 import com.cgl.base.baseService.IBaseService;
 import com.cgl.model.Customer;
+import com.cgl.model.CustomerType;
 import com.cgl.util.Page;
 
 import javax.annotation.Resource;
@@ -55,14 +56,15 @@ public class BaseServiceImpl implements IBaseService {
         return baseDao.findAllByPAge(o, p);
     }
 
-    public void deleteAll(Customer customer, String ids) {
+    public void deleteAll(Object object, String ids) {
         List<Integer> idList=new ArrayList<Integer>();
         String[] idStrings = ids.split(",");
         for (int i = 0; i < idStrings.length; i++) {
             idList.add(Integer.parseInt(idStrings[i]));
         }
 
-        baseDao.deleteAll(customer, idList);
+        baseDao.deleteAll(object, idList);
     }
+
 }
 

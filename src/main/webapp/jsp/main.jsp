@@ -30,9 +30,12 @@
             src="js/jquery-easyui-1.2.6/jquery.easyui.min.js"></script>
     <script type="text/javascript"
             src="js/jquery-easyui-1.2.6/locale/easyui-lang-zh_CN.js"></script>
-
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <script type="text/javascript" src="js/jquery.SuperSlide.js"></script>
     <script type="text/javascript">
         $(function () {
+            //动态生成选项卡
             $('a[title]').click(
                     function () {
                         var src = $(this).attr('rel');//rel，值
@@ -49,7 +52,19 @@
                                     });
                         }
                     });
+            $('#updateInfo').click(function(){
+                   var $userId= $('#userId').val();
+                    $('#changeUserInfo').dialog({
+                        title: '个人资料修改',
+                        width: 400,
+                        height: 400,
+                        closed: false,
+                        cache: false,
+                        href: 'user/user_getUserById.action?user.id='+$userId,
+                        modal: true
 
+                    });
+            });
         });
     </script>
     <style type="text/css">
@@ -72,43 +87,72 @@
 
 <body>
 <div id="cc" class="easyui-layout" fit=true
-     style="width: 100%; height: 100%;padding: 0px">
+     style="width: 100%; height: 100%;padding: 0px;">
     <%--顶部--%>
-    <div region="north" title="easyui-layout" split="false"
-         style="height: 100px;">${user.u_userName }欢迎您
+    <div region="north" title="首页" split="true" style="height: 86px">
+        <div class="top">
+            <div id="top_t">
+                <div id="logo" class="fl"></div>
+                <div id="photo_info" class="fr">
+                    <div id="photo" class="fl">
+                        <a href="#"><img src="images/a.png" alt="" width="60" height="60"></a>
+                    </div>
+                    <div id="base_info" class="fr">
+                        <div class="help_info">
+                            <a href="1" id="hp">&nbsp;</a>
+                            <a href="2" id="gy">&nbsp;</a>
+                            <a href="user/user_signOut.action" id="out">&nbsp;</a>
+                        </div>
+                        <div class="info_center">
+                           ${user.u_userName}
+                            <span id="nt">欢迎您！</span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
     <%--左侧菜单--%>
-    <div region="west" iconCls="icon-ok" split="true" title="菜单"
+    <div region="west" iconCls="icon-ok" split="true" title="菜单" border="false"
          style="width: 200px;">
         <div id="aa" class="easyui-accordion" fit=true>
             <div title="客户管理" style="overflow: auto; padding: 10px;">
                 <ul>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="客户信息" rel="jsp/client/client.jsp">客户信息</a>
                     </li>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="联系记录" rel="jsp/client/clientConnection.jsp">联系记录</a>
                     </li>
                     <li>
-                        <a title="客户类型" rel="jsp/client/clientConnection.jsp">客户类型</a>
+                        <img src="images/left.gif" alt="">
+                        <a title="客户类型" rel="jsp/client/customerType.jsp">客户类型</a>
                     </li>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="客户关怀" rel="jsp/client/clientConnection.jsp">客户关怀</a>
                     </li>
                     <li>
-                        <a title="行业管理" rel="jsp/system/changPassword.jsp">行业管理</a>
+                        <img src="images/left.gif" alt="">
+                        <a title="行业管理" rel="jsp/client/industry.jsp">行业管理</a>
                     </li>
                 </ul>
             </div>
             <div title="系统管理" style="overflow: auto;padding: 10px;">
                 <ul>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="用户管理" rel="jsp/system/changPassword.jsp">用户管理</a>
                     </li>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="用户类型管理" rel="jsp/system/changPassword.jsp">用户类型管理</a>
                     </li>
                     <li>
+                        <img src="images/left.gif" alt="">
                         <a title="部门管理" rel="jsp/system/changPassword.jsp">部门管理管理</a>
                     </li>
 
@@ -123,6 +167,10 @@
         </div>
     </div>
 </div>
+<div id="changeUserInfo">
+        <form id="userForm">
 
+        </form>
+</div>
 </body>
 </html>

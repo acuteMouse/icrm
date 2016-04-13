@@ -18,6 +18,7 @@ import java.util.List;
  */
 @Repository("baseDao")
 @Transactional
+
 public class BaseDaoImpl implements IBaseDao {
 
     public void addEntity(Object o) {
@@ -77,13 +78,14 @@ public class BaseDaoImpl implements IBaseDao {
 
 //        动态添加ID到sql中，最后一个单独添加
             for (int i = 0; i < ids.size() - 1; i++) {
-                sql.append(ids.get(i)+ ",");
+                sql.append(ids.get(i) + ",");
             }
         }
-        sql.append(ids.get(ids.size()-1) + ")");
+        sql.append(ids.get(ids.size() - 1) + ")");
         Query query = getSeesion().createQuery(sql.toString());
         query.executeUpdate();
     }
+
 
 
     @Resource//注入sessionfactory

@@ -1,6 +1,7 @@
 package com.cgl.base.baseService;
 
 import com.cgl.model.Customer;
+import com.cgl.model.CustomerType;
 import com.cgl.util.Page;
 
 import java.util.List;
@@ -20,5 +21,5 @@ public interface IBaseService {
 
     List findAllByPage(Object o, Page p);
 //    批量删除
-    void deleteAll(Customer customer, String ids);
+    void deleteAll(Object object, String ids);
 }

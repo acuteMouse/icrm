@@ -8,4 +8,6 @@ import com.cgl.base.baseService.IBaseService;
  * 作用：
  */
 public interface IIndustryService extends IBaseService {
+//    验证名称是否唯一
+    boolean checkName(String i_name);
 }

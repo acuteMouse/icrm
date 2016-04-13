@@ -18,6 +18,6 @@ public class UserActionTest {
     public void testGetAllCustomer() throws Exception {
         ApplicationContext ctx=new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
       UserAction userAction= (UserAction) ctx.getBean("userAction");
-        userAction.getAllCustomer();
+//        userAction.getAllCustomer();
     }
 }

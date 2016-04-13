@@ -2,6 +2,7 @@ package com.cgl.daoImpl;
 
 import com.cgl.base.baseDao.impl.BaseDaoImpl;
 import com.cgl.dao.IindustryDao;
+import com.cgl.model.Industry;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -11,4 +12,8 @@ import org.springframework.stereotype.Repository;
  */
 @Repository("industryDao")
 public class IndustryDaoImpl extends BaseDaoImpl implements IindustryDao {
+
+    public Industry checkName(String i_name) {
+        return (Industry) getSeesion().createQuery("from Industry where i_name=:name").setParameter("name", i_name).uniqueResult();
+    }
 }
