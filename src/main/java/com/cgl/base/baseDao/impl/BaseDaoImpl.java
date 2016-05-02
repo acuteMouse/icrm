@@ -2,77 +2,73 @@ package com.cgl.base.baseDao.impl;
 
 import com.cgl.base.baseDao.IBaseDao;
 import com.cgl.util.Page;
+import com.cgl.util.SessionUitl;
 import org.hibernate.Query;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
  * Created cgl on 2016/3/19.
  * 类名：baseDaoImpl 实现IbaseDao借口
- * 作用：一些通用的数据操作方法
+ * 作用：一些通用的数据操作方法,继承session工具类，实现IBaseDao接口
  */
 @Repository("baseDao")
-@Transactional
+public class BaseDaoImpl<T> extends SessionUitl implements IBaseDao<T> {
 
-public class BaseDaoImpl implements IBaseDao {
-
-    public void addEntity(Object o) {
-        getSeesion().save(o);
+    public void addEntity(T t) {
+        getSeesion().save(t);
     }
 
-    public void deleteEntity(Object o) {
-        getSeesion().delete(o);
+    public void deleteEntity(T t) {
+        getSeesion().delete(t);
     }
 
-    public void updateEntity(Object o) {
-        getSeesion().update(o);
+    public void updateEntity(T t) {
+        getSeesion().update(t);
     }
 
 
-    public List<Object> findAll(Object o) {
-        Query query = getSeesion().createQuery("from " + o.getClass().getSimpleName());
+    public List<T> findAll(T t) {
+        Query query = getSeesion().createQuery("from " + t.getClass().getSimpleName());
         return query.list();
     }
 
-    public void saveOrUpdateEntity(Object o) {
-        getSeesion().saveOrUpdate(o);
+    public void saveOrUpdateEntity(T t) {
+        getSeesion().saveOrUpdate(t);
     }
 
-    public Object findById(long id, Object o) {
-        Query query = getSeesion().createQuery(("From " + o.getClass().getSimpleName() + " where id=:id"));
+    public T findById(long id, T t) {
+        Query query = getSeesion().createQuery(("From " + t.getClass().getSimpleName() + " where id=:id"));
         query.setParameter("id", id);
-        return query.uniqueResult();
+        return (T) query.uniqueResult();
     }
 
     //    返回该对象对应表的记录总条数
-    public Long getTotal(Object o) {
+    public Long getTotal(T t) {
 
-        String sql = ("select count(*) from " + o.getClass().getSimpleName());
+        String sql = ("select count(*) from " + t.getClass().getSimpleName());
         Query query = getSeesion().createQuery(sql);
         return (Long) query.uniqueResult();
     }
 
     //    带分页的查询
-    public List findAllByPAge(Object o, Page p) {
-        Query query = getSeesion().createQuery("from " + o.getClass().getSimpleName());
+    public List findAllByPAge(T t, Page p) {
+        Query query = getSeesion().createQuery("from " + t.getClass().getSimpleName());
         query.setMaxResults(p.getRows());//设置一页多少行数据
         query.setFirstResult((p.getPage() - 1) * p.getRows());//mysql中分页从0开始
         return query.list();
     }
 
     /**
-     * @param o
-     * @param ids
+     * @param t
+     * @param ids,要删除list
      */
     //批量删除
-    public void deleteAll(Object o, List<Integer> ids) {
+    public void deleteAll(T t, List<Integer> ids) {
         StringBuffer sql = new StringBuffer(128);
-        sql.append("delete from " + o.getClass().getSimpleName());
+        sql.append("delete from " + t.getClass().getSimpleName());
         sql.append(" where id in (");
         if (ids.size() > 1) {
 
@@ -86,12 +82,4 @@ public class BaseDaoImpl implements IBaseDao {
         query.executeUpdate();
     }
 
-
-
-    @Resource//注入sessionfactory
-    public SessionFactory sessionFactory;
-
-    public Session getSeesion() { //返回session，由spring管理
-        return sessionFactory.getCurrentSession();
-    }
 }

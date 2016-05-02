@@ -10,16 +10,25 @@ import java.util.List;
  * 作用：
  */
 
-public interface IBaseDao  {
-    public  void  addEntity(Object o); //添加
-    public  void  deleteEntity(Object o);//删除
-    public  void  updateEntity(Object o);//修改
-    public  List<Object> findAll(Object o);//查询所有
-    public  void saveOrUpdateEntity(Object o); //添加或者修改
-    public  Object  findById(long id,Object o);
-    public  Long getTotal(Object o);
-//    分页
-    List findAllByPAge(Object o, Page p);
-//    批量删除
-    void deleteAll(Object o, List<Integer> ids);
+public interface IBaseDao<T> {
+    public void addEntity(T t); //添加
+
+    public void deleteEntity(T t);//删除
+
+    public void updateEntity(T t);//修改
+
+    public List<T> findAll(T t);//查询所有
+
+    public void saveOrUpdateEntity(T t); //添加或者修改
+
+    public T findById(long id, T t);
+
+    public Long getTotal(T t);
+
+    //    分页
+    public List<T> findAllByPAge(T t, Page p);
+
+    //    批量删除
+    public void deleteAll(T t, List<Integer> ids);
+
 }
