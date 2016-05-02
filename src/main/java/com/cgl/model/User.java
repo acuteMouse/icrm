@@ -27,11 +27,11 @@ public class User {
     private UserType u_userType;   //用户类型，外键
     private String u_remark;   //备注
     private Date u_startDate;   //入职时间
-    
+
     //无参构造器
     public User() {
     }
-    
+
 
     //-----get/set
     @Id
@@ -141,5 +141,24 @@ public class User {
 
     public void setU_startDate(Date u_startDate) {
         this.u_startDate = u_startDate;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", u_userName='" + u_userName + '\'' +
+                ", u_password='" + u_password + '\'' +
+                ", u_trueName='" + u_trueName + '\'' +
+                ", u_sex='" + u_sex + '\'' +
+                ", u_telphone='" + u_telphone + '\'' +
+                ", u_address='" + u_address + '\'' +
+                ", u_age=" + u_age +
+                ", u_idNum=" + u_idNum +
+                ", u_department=" + u_department +
+                ", u_userType=" + u_userType +
+                ", u_remark='" + u_remark + '\'' +
+                ", u_startDate=" + u_startDate +
+                '}';
     }
 }
