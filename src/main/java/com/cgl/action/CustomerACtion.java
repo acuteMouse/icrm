@@ -27,7 +27,6 @@ import java.util.Map;
  */
 @Controller
 public class CustomerAction extends BaseAction implements ModelDriven<Customer> {
-    private Map<String, Object> dateMap;
     private Customer customer = new Customer();
     private long industryId;
     private long c_typeId;
@@ -116,14 +115,6 @@ public class CustomerAction extends BaseAction implements ModelDriven<Customer> 
 
     public Customer getModel() {
         return customer;
-    }
-
-    public Map getDateMap() {
-        return dateMap;
-    }
-
-    public void setDateMap(Map dateMap) {
-        this.dateMap = dateMap;
     }
 
 

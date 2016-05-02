@@ -2,10 +2,7 @@ package com.cgl.base.baseAction;
 
 import com.cgl.base.baseDao.impl.BaseDaoImpl;
 import com.cgl.model.CustomerType;
-import com.cgl.service.ICustomerService;
-import com.cgl.service.ICustomerTypeService;
-import com.cgl.service.IIndustryService;
-import com.cgl.service.IUserService;
+import com.cgl.service.*;
 import com.cgl.util.Page;
 import net.sf.json.JSONObject;
 
@@ -21,6 +18,7 @@ import java.util.Map;
 public class BaseAction {
     private int page;
     private int rows;
+    public Map<String, Object> dateMap;
 
     //    分页信息，返回封装好的分页对象，子类继承直接可用
     public Page getPageInfo() {
@@ -36,6 +34,11 @@ public class BaseAction {
     @Resource
     protected IIndustryService industryService;
 
+    @Resource
+    protected IDepartmentService departmentService;
+    @Resource
+    protected IUserTypeService userTypeService;
+
     public int getPage() {
         return page;
     }
@@ -50,5 +53,13 @@ public class BaseAction {
 
     public void setRows(int rows) {
         this.rows = rows;
+    }
+
+    public Map<String, Object> getDateMap() {
+        return dateMap;
+    }
+
+    public void setDateMap(Map<String, Object> dateMap) {
+        this.dateMap = dateMap;
     }
 }

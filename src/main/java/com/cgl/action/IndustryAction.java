@@ -18,13 +18,12 @@ import java.util.Map;
  */
 public class IndustryAction extends BaseAction implements ModelDriven<Industry> {
     private Industry industry = new Industry();
-    private Map<String, Object> dateMap;
     private String ids;//删除用，支持批量
 
     public String getAll() {
         Page page = getPageInfo();
         List industryList = industryService.findAllByPage(new Industry(), page);
-        long total = customerService.getTotal(new CustomerType());
+        long total = industryService.getTotal(new Industry());
         if (industryList != null && industryList.size() > 0) {
             dateMap = new HashMap<String, Object>();
 //        构造datagrid需要的json格式 ｛“total”:xx,"rows"：[x,x,x]｝
@@ -88,14 +87,6 @@ public class IndustryAction extends BaseAction implements ModelDriven<Industry> 
 
     public void setIndustry(Industry industry) {
         this.industry = industry;
-    }
-
-    public Map<String, Object> getDateMap() {
-        return dateMap;
-    }
-
-    public void setDateMap(Map<String, Object> dateMap) {
-        this.dateMap = dateMap;
     }
 
     public String getIds() {

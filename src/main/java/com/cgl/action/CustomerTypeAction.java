@@ -19,7 +19,6 @@ import java.util.Map;
  */
 @Controller
 public class CustomerTypeAction extends BaseAction implements ModelDriven<CustomerType> {
-    private Map<String, Object> dateMap;
     private CustomerType customerType = new CustomerType();
     private String ids;//删除用，支持批量
     private String ct_name;
@@ -93,14 +92,6 @@ public class CustomerTypeAction extends BaseAction implements ModelDriven<Custom
 
     public CustomerType getModel() {
         return customerType;
-    }
-
-    public Map<String, Object> getDateMap() {
-        return dateMap;
-    }
-
-    public void setDateMap(Map<String, Object> dateMap) {
-        this.dateMap = dateMap;
     }
 
     public String getIds() {
