@@ -145,15 +145,15 @@
                 <ul>
                     <li>
                         <img src="images/left.gif" alt="">
-                        <a title="用户管理" rel="jsp/system/changPassword.jsp">用户管理</a>
+                        <a title="用户管理" rel="jsp/user/user.jsp">用户管理</a>
                     </li>
                     <li>
                         <img src="images/left.gif" alt="">
-                        <a title="用户类型管理" rel="jsp/system/changPassword.jsp">用户类型管理</a>
+                        <a title="用户类型管理" rel="jsp/user/userType.jsp">用户类型管理</a>
                     </li>
                     <li>
                         <img src="images/left.gif" alt="">
-                        <a title="部门管理" rel="jsp/system/changPassword.jsp">部门管理管理</a>
+                        <a title="部门管理" rel="jsp/user/department.jsp">部门管理管理</a>
                     </li>
 
                 </ul>
