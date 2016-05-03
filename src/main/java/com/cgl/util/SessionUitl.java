@@ -11,7 +11,7 @@ import javax.annotation.Resource;
  * 类名：sessionUtil
  * 作用:获取hibernateSession的工具类
  */
-@Component
+
 public class SessionUitl {
     @Resource//注入sessionfactory
     public SessionFactory sessionFactory;

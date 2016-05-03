@@ -15,6 +15,7 @@ import java.util.List;
  * 作用：一些通用的数据操作方法,继承session工具类，实现IBaseDao接口
  */
 @Repository("baseDao")
+@Transactional
 public class BaseDaoImpl<T> extends SessionUitl implements IBaseDao<T> {
 
     public void addEntity(T t) {
