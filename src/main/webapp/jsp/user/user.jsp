@@ -38,12 +38,12 @@
                     var datajson = eval(data);
 //                                datajson格式：｛types:[{},{},{}]}
 //                                alert(datajson.types[0].ct_name);
-                    var optionNumber = $('#userType').find('option').length;
+                    var optionNumber = $('#role').find('option').length;
 //                                alert(optionNumber);
 //                                防止重复加载
                     if (optionNumber <= datajson.types.length) {
                         for (var i = 0; i < datajson.types.length; i++) {
-                            $('#userType').append("<option value='" + datajson.types[i].id + "'>" + datajson.types[i].ut_name + "</option>");
+                            $('#role').append("<option value='" + datajson.types[i].id + "'>" + datajson.types[i].ut_name + "</option>");
                         }
                     }
                 }
@@ -188,9 +188,9 @@
                     {field: 'u_telphone', title: '联系电话', width: 100},
                     {field: "u_startDate", title: '入职日期', width: 100},
                     {
-                        field: 'u_userType', title: '用户类型', width: 100,
+                        field: 'u_role', title: '用户类型', width: 100,
                         formatter: function (value, row, index) {
-                            return new Object(row["u_userType"]).ct_name;
+                            return new Object(row["u_role"]).ct_name;
                         }
                     },
                     {
@@ -382,7 +382,7 @@
                     用户类型：
                 </td>
                 <td>
-                    <select id="userType" name="userTypeId">
+                    <select id="role" name="userTypeId">
                         <option value="">请选择</option>
                     </select>
                 </td>

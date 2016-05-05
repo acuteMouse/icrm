@@ -10,27 +10,27 @@
 
     <!--用户-->
     <!-- 在写路径时，需要把namespace加到action之前 -->
-    <package name="user" namespace="/user" extends="json-default">
+    <package name="user" namespace="/user" extends="checkRolesIntercept">
         <global-results>
             <result type="json">
                 <param name="root">dateMap</param>
             </result>
         </global-results>
         <!--用户CURD,登陆，注销-->
-        <action name="user_*" class="com.cgl.action.UserAction" method="{1}">
+        <action name="user_*" class="com.zy.action.UserAction" method="{1}">
             <result name="signOut">/jsp/login.jsp</result>
             <result name="loginSuccess">/jsp/main.jsp</result>
             <result name="loginFail">/jsp/login.jsp</result>
         </action>
 
-        <action name="user_getAll" class="com.cgl.action.UserAction" method="getAll"></action>
+        <action name="user_getAll" class="com.zy.action.UserAction" method="getAll"></action>
         <!--用户部门-->
-        <action name="department_*" class="com.cgl.action.DepartmentAction" method="{1}"></action>
+        <action name="department_*" class="com.zy.action.DepartmentAction" method="{1}"></action>
         <!--用户类型-->
-        <action name="userType_*" class="com.cgl.action.UserTypeAction" method="{1}"></action>
+        <action name="userType_*" class="com.zy.action.UserTypeAction" method="{1}"></action>
     </package>
     <!--客户-->
-    <package name="customer" namespace="/customer" extends="json-default">
+    <package name="customer" namespace="/customer" extends="checkRolesIntercept">
         <!--配置全局返回值-->
         <global-results>
             <result type="json">
@@ -38,19 +38,36 @@
             </result>
         </global-results>
         <!--客户CURD-->
-        <action name="customer_*" class="com.cgl.action.CustomerAction" method="{1}">
+        <action name="customer_*" class="com.zy.action.CustomerAction" method="{1}">
             <result name="{1}">/jsp/client/{1}.jsp</result>
         </action>
         <!--获取所有客户-->
-        <action name="getAllCustomer" class="com.cgl.action.CustomerAction" method="getAllCustomer"></action>
+        <action name="getAllCustomer" class="com.zy.action.CustomerAction" method="getAllCustomer"></action>
         <!--异步加载客户类型-->
-        <action name="getCustomerType" class="com.cgl.action.CustomerAction" method="getCustomerType"></action>
+        <action name="getCustomerType" class="com.zy.action.CustomerAction" method="getCustomerType"></action>
         <!--异步加载行业-->
-        <action name="getIndustryType" class="com.cgl.action.CustomerAction" method="getIndustryType"></action>
+        <action name="getIndustryType" class="com.zy.action.CustomerAction" method="getIndustryType"></action>
         <!--客户类型CRUD-->
-        <action name="customerType_*" class="com.cgl.action.CustomerTypeAction" method="{1}"></action>
+        <action name="customerType_*" class="com.zy.action.CustomerTypeAction" method="{1}"></action>
         <!--行业CRUD-->
-        <action name="industry_*" class="com.cgl.action.IndustryAction" method="{1}"></action>
+        <action name="industry_*" class="com.zy.action.IndustryAction" method="{1}"></action>
+    </package>
+    <package name="checkRolesIntercept" extends="json-default">
+        <interceptors>
+            <!--权限拦截器-->
+            <interceptor name="checkRolesIntercepter" class="com.zy.system.Intercepts.CheckRoles">
+            </interceptor>
+            <interceptor-stack name="checkPowerIntercepter">
+                <interceptor-ref name="checkRolesIntercepter"></interceptor-ref>
+                <interceptor-ref name="defaultStack"></interceptor-ref>
+            </interceptor-stack>
+        </interceptors>
+        <!--定义全局拦截器-->
+        <default-interceptor-ref name="checkPowerIntercepter"></default-interceptor-ref>
+        <!--拦截未登陆，返回到登陆页面-->
+        <global-results>
+            <result name="signOut">/jsp/login.jsp</result>
+        </global-results>
     </package>
 </struts>
 	

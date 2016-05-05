@@ -149,7 +149,7 @@
                     </li>
                     <li>
                         <img src="images/left.gif" alt="">
-                        <a title="用户类型管理" rel="jsp/user/userType.jsp">用户类型管理</a>
+                        <a title="用户类型管理" rel="jsp/user/role.jsp">用户类型管理</a>
                     </li>
                     <li>
                         <img src="images/left.gif" alt="">
