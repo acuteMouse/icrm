@@ -5,6 +5,7 @@ import com.zy.model.Role;
 import com.zy.util.Page;
 import com.opensymphony.xwork2.Action;
 import com.opensymphony.xwork2.ModelDriven;
+import org.springframework.stereotype.Controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -14,7 +15,8 @@ import java.util.List;
  * 类名：
  * 作用
  */
-public class UserTypeAction extends BaseAction implements ModelDriven<Role> {
+@Controller
+public class RoleAction extends BaseAction implements ModelDriven<Role> {
     private Role role = new Role();
     private String ids; //批量删除
 
@@ -26,8 +28,8 @@ public class UserTypeAction extends BaseAction implements ModelDriven<Role> {
     public String getAll() {
         Page p = getPageInfo();//分页
 //        查出所有客户Service
-        List<Role> roleList = userTypeService.findAllByPage(new Role(), getPageInfo());
-        long total = userTypeService.getTotal(new Role());
+        List<Role> roleList = roleService.findAllByPage(new Role(), getPageInfo());
+        long total = roleService.getTotal(new Role());
         dateMap = new HashMap<String, Object>();
         if (roleList != null && roleList.size() > 0) {
 //        构造datagrid需要的json格式 ｛“total”:xx,"rows"：[x,x,x]｝
@@ -42,7 +44,7 @@ public class UserTypeAction extends BaseAction implements ModelDriven<Role> {
      */
     public void add() {
         if (role != null) {
-            userTypeService.add(role);
+            roleService.add(role);
         }
     }
 
@@ -53,7 +55,7 @@ public class UserTypeAction extends BaseAction implements ModelDriven<Role> {
      */
     public void delete() {
         if (ids != null) {
-            userTypeService.deleteAll(new Role(), ids);
+            roleService.deleteAll(new Role(), ids);
         }
     }
 
@@ -64,7 +66,7 @@ public class UserTypeAction extends BaseAction implements ModelDriven<Role> {
      */
     public void update() {
         if (role != null) {
-            userTypeService.update(role);
+            roleService.update(role);
         }
     }
 

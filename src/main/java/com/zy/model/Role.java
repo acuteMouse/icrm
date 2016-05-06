@@ -15,7 +15,6 @@ public class Role {
     private long id;//  主键
     private String ut_name;// 类型名称
     private String ut_remark; //备注
-    private Set<Power> powers;//一对多关联关系
 
     //----get/set方法--
 
@@ -45,12 +44,4 @@ public class Role {
         this.ut_remark = ut_remark;
     }
 
-    @OneToMany(mappedBy = "role")
-    public Set<Power> getPowers() {
-        return powers;
-    }
-
-    public void setPowers(Set<Power> powers) {
-        this.powers = powers;
-    }
 }

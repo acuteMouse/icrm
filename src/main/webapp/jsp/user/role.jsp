@@ -11,7 +11,7 @@
 <head>
     <base href="<%=basePath%>">
 
-    <title>--用户类型--</title>
+    <title>--角色--</title>
 
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -210,7 +210,7 @@
         <input type="hidden" value="" name="id">
         <table id="dialogTable">
             <tr>
-                <td> 类型:</td>
+                <td> 角色:</td>
                 <td><input class="easyui-validatebox" type="text" name="ut_name" data-options="required:true"/></td>
             </tr>
         </table>
