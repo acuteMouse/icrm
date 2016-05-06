@@ -33,7 +33,7 @@ public class BaseAction {
     @Resource
     protected IDepartmentService departmentService;
     @Resource
-    protected IUserTypeService userTypeService;
+    protected IRoleService roleService;
 
     public int getPage() {
         return page;
