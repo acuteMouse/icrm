@@ -27,7 +27,7 @@
         <!--用户部门-->
         <action name="department_*" class="com.zy.action.DepartmentAction" method="{1}"></action>
         <!--用户类型-->
-        <action name="userType_*" class="com.zy.action.UserTypeAction" method="{1}"></action>
+        <action name="userType_*" class="com.zy.action.RoleAction" method="{1}"></action>
     </package>
     <!--客户-->
     <package name="customer" namespace="/customer" extends="checkRolesIntercept">
@@ -67,6 +67,7 @@
         <!--拦截未登陆，返回到登陆页面-->
         <global-results>
             <result name="signOut">/jsp/login.jsp</result>
+            <result name="noPower">/jsp/nopower.jsp</result>
         </global-results>
     </package>
 </struts>

@@ -42,7 +42,7 @@ public class CheckRoles extends AbstractInterceptor {
             if (hasPower) { //有，继续执行
                 return invocation.invoke();
             } else { //没有，返回提示页面
-                ActionContext.getContext().put("msg", "您为拥有该权限");
+                ActionContext.getContext().put("msg", "您未拥有该权限");
                 return "noPower";
             }
 
