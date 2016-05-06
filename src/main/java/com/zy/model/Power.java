@@ -1,5 +1,7 @@
 package com.zy.model;
 
+import org.springframework.context.annotation.Lazy;
+
 import javax.persistence.*;
 
 /**
@@ -10,6 +12,7 @@ import javax.persistence.*;
 @Entity(name = "t_power")
 public class Power {
     private  long id;
+    private  Power parentPower;
     private  String url;//权限访问action路径
     private  String remark;//备注
     private  Role role;
@@ -41,12 +44,22 @@ public class Power {
     }
 
     @ManyToOne
-    @JoinColumn(name = "role_id")
+    @JoinColumn(name = "role")
     public Role getRole() {
         return role;
     }
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    @ManyToOne
+    @JoinColumn(name = "parentPower")
+    public Power getParentPower() {
+        return parentPower;
+    }
+
+    public void setParentPower(Power parentPower) {
+        this.parentPower = parentPower;
     }
 }
