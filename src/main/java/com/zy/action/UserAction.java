@@ -76,12 +76,12 @@ public class UserAction extends BaseAction implements ModelDriven<User> {
      *异步加载用户类型
      * @return
      */
-    public  String ajaxGetAllType(){
+   /* public  String ajaxGetAllType(){
         List userTypeList=userTypeService.findAll(new Role());
         dateMap=new HashMap<String, Object>();
         dateMap.put("types",userTypeList);
         return  Action.SUCCESS;
-    }
+    }*/
     public User getUser() {
         return user;
     }

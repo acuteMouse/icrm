@@ -25,8 +25,17 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://G:/apache-tomcat-8.0.26/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
@@ -69,5 +78,7 @@
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-json-plugin:2.1.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.struts:struts2-junit-plugin:2.1.8" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-test:2.5.6" level="project" />
+    <orderEntry type="library" name="Maven: net.bull.javamelody:javamelody-core:1.55.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jrobin:jrobin:1.5.9" level="project" />
   </component>
 </module>

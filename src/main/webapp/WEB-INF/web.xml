@@ -6,8 +6,26 @@
 	<display-name>Archetype Created Web Application</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>classpath:applicationContext.xml</param-value>
+		<param-value>
+			classpath:applicationContext.xml
+			classpath:net/bull/javamelody/monitoring-spring.xml<!--和spring集成时添加-->
+		</param-value>
 	</context-param>
+	<filter>
+		<filter-name>monitoring</filter-name>
+		<filter-class>net.bull.javamelody.MonitoringFilter</filter-class>
+		<init-param>
+			<param-name>log</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>monitoring</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<listener>
+		<listener-class> net.bull.javamelody.SessionListener</listener-class>
+	</listener>
 	<!-- 添加struts2支持 -->
 	<filter>
 		<filter-name>struts2</filter-name>
